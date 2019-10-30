@@ -1,1 +1,1 @@
-http://huashenriji.gitee.io/taobao
+http://huashenriji.gitee.io/taobao/winActivation/index/index.html

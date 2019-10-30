@@ -1,1 +1,1 @@
-http://huashenriji.gitee.io/peanutdaily
+http://huashenriji.gitee.io/taobao

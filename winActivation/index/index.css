@@ -24,3 +24,10 @@ body {
 .container .scrollspy-example .carousel .carousel-inner .item {
     height: 400px;
 }
+
+.carousel-inner .item {
+    background: url("../asset/img/bg.png") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 20px;
+}

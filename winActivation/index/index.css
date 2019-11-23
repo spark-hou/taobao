@@ -17,6 +17,21 @@ body {
 
 }
 
+.block {
+    padding: 10px;
+    display: inline-block;
+}
+
+.download {
+    display: inline-block;
+    color: white;
+    background-color: #2aabd2;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+
+}
+
 .carousel-caption {
     top: 91%;
 }
@@ -41,6 +56,8 @@ body {
 }
 
 .carousel-inner .item .content {
+    height: 100%;
+    position: relative;
     margin: 0 auto;
     display: flex;
     align-items: center;

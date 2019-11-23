@@ -2,6 +2,10 @@ body {
     padding: 60px 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .floatBox {
     position: fixed;
     top: 0;
@@ -11,6 +15,10 @@ body {
     transform: translateX(-50%);
     z-index: 10000;
 
+}
+
+.carousel-caption {
+    top: 91%;
 }
 
 .container {
@@ -30,4 +38,23 @@ body {
     background-size: cover;
     box-sizing: border-box;
     padding: 20px;
+}
+
+.carousel-inner .item .content {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner .item .content img {
+    display: inline-block;
+    margin-right: 20px;
+    height: 360px;
+}
+
+
+/*尾部*/
+.footer {
+    padding-top: 50px;
 }

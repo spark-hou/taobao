@@ -49,7 +49,7 @@ body {
 }
 
 .carousel-inner .item {
-    background: url("../asset/img/bg.png") no-repeat;
+    background: url("../img/bg.png") no-repeat;
     background-size: cover;
     box-sizing: border-box;
     padding: 20px;

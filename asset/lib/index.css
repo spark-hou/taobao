@@ -1,5 +1,19 @@
 body {
     padding: 60px 0;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    background: url("../img/detail/auth.png") no-repeat;
+    background-size: 300px 100px;
+    opacity: 0.5;
 }
 
 * {

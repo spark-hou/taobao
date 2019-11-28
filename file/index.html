@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文件列表</title>
+    <link rel="stylesheet" href="../asset/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../asset/lib/reset.css">
+    <link rel="stylesheet" href="../asset/lib/index.css">
+    <style>
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        .scrollspy-example {
+            display: none;
+        }
+    </style>
+</head>
+<body class="position-relative" data-spy="scroll" data-target="#navbar-example">
+<div class="floatBox">
+    <nav id="navbar-example" class="navbar navbar-default navbar-static ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">文件列表</a>
+            </div>
+            <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password"
+                   class="form-control"
+                   id="exampleInputPassword1"
+                   autocomplete='tel'
+                   placeholder="Password">
+        </div>
+        <button type="button" class="btn btn-default">显示</button>
+    </form>
+    <div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="scrollspy-example">
+        <div class="block">
+            <a href="../asset/file/CloseWindowsDefender.exe" download="TeamViewer" class="download">
+                点击下载--一键关闭WindowsDefender--工具
+            </a>
+        </div>
+        <br>
+        <div class="block">
+            <a href="../asset/file/yisheng.exe" download="卸载易升工具.exe" class="download">
+                点击下载--卸载易升工具
+            </a>
+        </div>
+        <br>
+        <div class="block">
+            <a href="../asset/file/disableUpdate.exe" download="关闭更新工具.exe" class="download">
+                点击下载--关闭更新工具
+            </a>
+        </div>
+        <br>
+        <div class="block">
+            <a href="../asset/file/disableUpdate.exe" download="开启win10更新工具.exe" class="download">
+                点击下载--开启win10更新工具
+            </a>
+        </div>
+        <br>
+        <div class="block">
+            <a href="../asset/file/vbs.reg" download="vbs.reg" class="download">
+                点击下载--vbs脚本
+            </a>
+        </div>
+        <br>
+        <div class="block">
+            <a href="../asset/file/TeamViewerQS14.6.4835.exe" download="TeamViewerQS14.6.4835.exe" class="download">
+                点击下载--TeamViewer--远程协助工具
+            </a>
+        </div>
+        <br>
+        <div class="block">
+            <a href="../asset/file/anzhaung.zip" download="激活工具(安装就行).zip" class="download">
+                点击下载--win7/8激活工具
+            </a>
+        </div>
+        <br>
+        <div class="block">
+            <a href="../asset/file/Micro.exe" download="Micro.exe" class="download">
+                点击下载--Micro
+            </a>
+        </div>
+    </div>
+</div>
+<div class="footer">
+
+</div>
+
+
+
+
+</body>
+<script src="../asset/lib/jquery-3.3.1.min.js"></script>
+<script src="../asset/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="./index.js"></script>
+</html>

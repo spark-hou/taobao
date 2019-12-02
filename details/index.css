@@ -78,6 +78,18 @@ body {
     padding-bottom: 20px;
     color: red;
 }
-.update p.partTwo{
+
+.update p.partTwo {
     font-size: 20px;
 }
+
+.pe p {
+    color: white !important;
+}
+
+.border-red {
+    display: inline-block;
+    padding: 2px;
+    border: 2px solid red;
+}
+

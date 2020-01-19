@@ -1,0 +1,11 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="FixDocComment">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl meta k" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+  </action>
+</keymap>

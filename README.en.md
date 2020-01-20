@@ -1,1 +1,0 @@
-http://huashenriji.gitee.io/taobao/activation 

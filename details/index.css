@@ -9,15 +9,25 @@ body {
     box-sizing: border-box;
     border: 1px solid #e0e0e0;
     padding-top: 5px;
-    background: url("../asset/img/detail/1.jpg") no-repeat bottom left;
     background-size: 300px 100px;
-
+    position: relative;
+    background-color: rgba(249, 243, 220, 0.5);
+    overflow: hidden;
+    filter: blur(2px);
 }
 
 .mainPic p {
     text-align: center;
     font-size: 24px;
     padding-bottom: 5px;
+}
+
+.mainPic img {
+    position: absolute;
+    z-index: 0;
+    width: 300px;
+    left: 0;
+    bottom: -30px;
 }
 
 .mainPic p.partTwo {
@@ -28,6 +38,7 @@ body {
 }
 
 .detail {
+    background-color: rgba(249, 243, 220, 0.5);
     width: 700px;
     margin: 0 auto 20px auto;
     box-sizing: border-box;

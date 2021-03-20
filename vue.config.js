@@ -8,6 +8,7 @@ const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
   publicPath: './',
+
   devServer: {
     port: 8888, // 端口
     proxy: {
@@ -21,6 +22,7 @@ module.exports = {
       },
     },
   },
+
   configureWebpack: (config) => {
     if (process.env.NODE_ENV === 'production') {
       // 为生产环境修改配置...
@@ -76,7 +78,7 @@ module.exports = {
       // 为开发环境修改配置...
       config.mode = 'development';
     }
-  }
-  ,
+  },
 
+  outputDir: 'docs',
 };

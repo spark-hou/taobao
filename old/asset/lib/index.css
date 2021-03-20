@@ -1,0 +1,91 @@
+body {
+    padding: 60px 0;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    background: url("../img/detail/auth.png") no-repeat;
+    background-size: 300px 100px;
+    opacity: 0.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.floatBox {
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    height: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+
+}
+
+.block {
+    padding: 10px;
+    display: inline-block;
+}
+
+.download {
+    display: inline-block;
+    color: white;
+    background-color: #2aabd2;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+
+}
+
+.carousel-caption {
+    top: 91%;
+}
+
+.container {
+    width: 1200px;
+}
+
+.container .scrollspy-example h4 {
+    padding-top: 70px;
+}
+
+.container .scrollspy-example .carousel .carousel-inner .item {
+    height: 400px;
+}
+
+.carousel-inner .item {
+    background: url("../img/bg.png") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.carousel-inner .item .content {
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner .item .content img {
+    display: inline-block;
+    margin-right: 20px;
+    height: 360px;
+}
+
+
+/*尾部*/
+.footer {
+    padding-top: 50px;
+}

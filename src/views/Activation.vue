@@ -21,7 +21,7 @@
         <el-divider></el-divider>
         <PicList :list="list1"></PicList>
         <div class="block">
-          <a href="../../public/file/360zip_setup_4.0.0.1200.exe"
+          <a :href="`${$path}/file/360zip_setup_4.0.0.1200.exe`"
              download="360zip.exe"
              class="download">
             点击下载--360压缩

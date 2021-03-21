@@ -11,6 +11,7 @@ import './components/index';
 Vue.config.productionTip = false;
 Vue.prototype.$http = http;
 Vue.prototype.$url = url;
+Vue.prototype.$path = process.env.BASE_URL;
 new Vue({
   router,
   store,

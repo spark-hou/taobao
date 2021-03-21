@@ -65,7 +65,7 @@
         <p class="text-warning">店主在线服务支持</p>
         <p class="partTwo text-warning"><span>支持远程协助</span><span>无效退款</span></p>
         <p class="text-info">10系统处理后效果</p>
-        <img src="../assets/img/win10/6.png" alt="">
+        <img src="../assets/img/win10/6.jpg" alt="">
         <div class="cover">
 
         </div>
@@ -117,7 +117,7 @@
         <p class="text-warning">两种方案可选，自由选择</p>
         <p class="partTwo text-warning"><span>支持远程协助</span><span>无效退款</span></p>
         <p>店主在线服务支持</p>
-        <img src="../assets/img/detail/update.png" alt="">
+        <img src="../assets/img/detail/update.jpg" alt="">
         <div class="cover">
 
         </div>

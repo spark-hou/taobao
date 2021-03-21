@@ -25,13 +25,17 @@
         <el-divider></el-divider>
         <PicList :list="list1"></PicList>
         <div class="block">
-          <a href="../../public/file/yisheng.exe" download="卸载易升工具.exe" class="download">
+          <a :href="`${$path}/file/yisheng.exe`"
+             download="卸载易升工具.exe"
+             class="download">
             点击下载--卸载易升工具
           </a>
         </div>
         <br>
         <div class="block">
-          <a href="../../public/file/disableUpdate.exe" download="关闭更新工具.exe" class="download">
+          <a :href="`${$path}/file/disableUpdate.exe`"
+             download="关闭更新工具.exe"
+             class="download">
             点击下载--关闭更新工具
           </a>
         </div>
@@ -43,14 +47,14 @@
   </div>
 </template>
 <script>
-const img4 = require('../assets/img/disableUpdate/4.png');
-const img1 = require('../assets/img/disableUpdate/1.png');
-const img3 = require('../assets/img/disableUpdate/3.png');
-const img9 = require('../assets/img/disableUpdate/9.png');
-const img5 = require('../assets/img/disableUpdate/5.png');
-const img6 = require('../assets/img/disableUpdate/6.png');
-const img7 = require('../assets/img/disableUpdate/7.png');
-const img8 = require('../assets/img/disableUpdate/8.png');
+const img4 = require('../assets/img/disableUpdate/4.jpg');
+const img1 = require('../assets/img/disableUpdate/1.jpg');
+const img3 = require('../assets/img/disableUpdate/3.jpg');
+const img9 = require('../assets/img/disableUpdate/9.jpg');
+const img5 = require('../assets/img/disableUpdate/5.jpg');
+const img6 = require('../assets/img/disableUpdate/6.jpg');
+const img7 = require('../assets/img/disableUpdate/7.jpg');
+const img8 = require('../assets/img/disableUpdate/8.jpg');
 
 export default {
   name: 'DisableUpdate',

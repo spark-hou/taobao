@@ -46,15 +46,15 @@
   </div>
 </template>
 <script>
-const img4 = require('../assets/img/win10/4.png');
-const img5 = require('../assets/img/win10/5.png');
-const success = require('../assets/img/win10/success.png');
-const noNeed = require('../assets/img/win10/noNeed.png');
-const fail = require('../assets/img/win10/fail.png');
-const img1 = require('../assets/img/win10Fail/1.png');
-const img7 = require('../assets/img/win10/7.png');
-const img8 = require('../assets/img/win10/8.png');
-const img6 = require('../assets/img/win10/6.png');
+const img4 = require('../assets/img/win10/4.jpg');
+const img5 = require('../assets/img/win10/5.jpg');
+const success = require('../assets/img/win10/success.jpg');
+const noNeed = require('../assets/img/win10/noNeed.jpg');
+const fail = require('../assets/img/win10/fail.jpg');
+const img1 = require('../assets/img/win10Fail/1.jpg');
+const img7 = require('../assets/img/win10/7.jpg');
+const img8 = require('../assets/img/win10/8.jpg');
+const img6 = require('../assets/img/win10/6.jpg');
 
 export default {
   name: 'Activation',

@@ -24,7 +24,9 @@
         <el-divider></el-divider>
         <PicList :list="list1"></PicList>
         <div class="block">
-          <a href="../asset/file/disableUpdate.exe" download="开启win10更新工具.exe" class="download">
+          <a :href="`${$path}/file/disableUpdate.exe`"
+             download="开启win10更新工具.exe"
+             class="download">
             点击下载--开启win10更新工具
           </a>
         </div>
@@ -33,7 +35,7 @@
   </div>
 </template>
 <script>
-const img1 = require('../assets/img/enableUpdate/1.png');
+const img1 = require('../assets/img/enableUpdate/1.jpg');
 
 export default {
   name: 'EnableUpdate',

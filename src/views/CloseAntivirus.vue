@@ -16,7 +16,7 @@
       <div v-if="activeName==='1'">
         <PicList :list="list1"></PicList>
         <div class="block">
-          <a href="../../public/file/CloseWindowsDefender.exe"
+          <a :href="`${$path}/file/CloseWindowsDefender.exe`"
              download="CloseWindowsDefender.exe" class="download">
             点击下载--一键关闭WindowsDefender--工具
           </a>
@@ -29,15 +29,15 @@
   </div>
 </template>
 <script>
-const img1 = require('../assets/img/defender/1.png');
-const img2 = require('../assets/img/defender/2.png');
-const img3 = require('../assets/img/defender/3.png');
-const img4 = require('../assets/img/defender/4.png');
-const img5 = require('../assets/img/defender/5.png');
-const img6 = require('../assets/img/defender/6.png');
+const img1 = require('../assets/img/defender/1.jpg');
+const img2 = require('../assets/img/defender/2.jpg');
+const img3 = require('../assets/img/defender/3.jpg');
+const img4 = require('../assets/img/defender/4.jpg');
+const img5 = require('../assets/img/defender/5.jpg');
+const img6 = require('../assets/img/defender/6.jpg');
 const img101 = require('../assets/img/win10/1.jpg');
 const img102 = require('../assets/img/win10/2.jpg');
-const img103 = require('../assets/img/win10/3.png');
+const img103 = require('../assets/img/win10/3.jpg');
 
 export default {
   name: 'CloseAntivirus',

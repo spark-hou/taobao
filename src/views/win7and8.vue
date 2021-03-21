@@ -24,7 +24,9 @@
         <el-divider></el-divider>
         <PicList :list="list1"></PicList>
         <div class="block">
-          <a href="../asset/file/anzhaung.zip" download="anzhaung.zip" class="download">
+          <a :href="`${$path}/file/anzhaung.zip`"
+             download="anzhaung.zip"
+             class="download">
             点击下载--激活工具
           </a>
         </div>
@@ -33,7 +35,7 @@
   </div>
 </template>
 <script>
-const img1 = require('../assets/img/win8/1.png');
+const img1 = require('../assets/img/win8/1.jpg');
 
 export default {
   name: 'win7and8',

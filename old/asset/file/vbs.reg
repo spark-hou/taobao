@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-[HKEY_CLASSES_ROOT\.VBS]
-@="VBSFile"
-[HKEY_CLASSES_ROOT\.VBS\PersistentHandler]
-@="{5e941d80-bf96-11cd-b579-08002b30bfeb}"

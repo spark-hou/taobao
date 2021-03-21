@@ -29,7 +29,9 @@
         </div>
         <br>
         <div class="block">
-          <a href="../../public/file/永久激活工具.zip" download="永久激活工具.zip" class="download">
+          <a :href="`${$path}/file/永久激活工具.zip`"
+             download="永久激活工具.zip"
+             class="download">
             点击下载--永久激活工具
           </a>
         </div>

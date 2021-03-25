@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     这是一个空白页面
-    <el-button @click="go"></el-button>
   </div>
 </template>
 
@@ -14,10 +13,6 @@ export default {
   },
   created() {
   },
-  methods: {
-    go() {
-      this.$router.push('AdobeFamily');
-    },
-  },
+  methods: {},
 };
 </script>

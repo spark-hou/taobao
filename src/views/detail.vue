@@ -6,25 +6,27 @@
 <template>
   <div class="detail">
     <div style="font-size: 20px">
-      win10版本请查看链接：http://huashenriji.gitee.io/taobao/activation/
+      Adobe全家桶安装教程请查看链接：https://tool.huashengriji.work/#/AdobeFamily
+      <br>
+      win10版本请查看链接：https://tool.huashengriji.work/#/Activation
       <br>
       win10版本请查看链接：https://pan.baidu.com/s/1cQIiKH6WuCTJXr7cBf6Kmg
       提取码：j9qv
       复制这段内容后打开百度网盘手机App，操作更方便哦
       <br>
-      win7/8版本请查看链接：http://huashenriji.gitee.io/taobao/win7and8/
+      win7/8版本请查看链接：https://tool.huashengriji.work/#/win7and8
       <br>
       win7/8版本请查看链接：https://pan.baidu.com/s/1I2CEsM3Jj3YVNI1QXi-GAA
       提取码：pp3h
       复制这段内容后打开百度网盘手机App，操作更方便哦
       <br>
-      打开win10系统更新方法：http://huashenriji.gitee.io/taobao/enableUpdate/
+      打开win10系统更新方法：https://tool.huashengriji.work/#/enableUpdate/
       <br>
       打开win10系统更新方法链接：https://pan.baidu.com/s/1vj3Zo82eqGRKwlbdQk1gCA
       提取码：zalk
       复制这段内容后打开百度网盘手机App，操作更方便哦
       <br>
-      关闭win10系统更新方法：http://huashenriji.gitee.io/taobao/disableUpdate/
+      关闭win10系统更新方法：https://tool.huashengriji.work/#/disableUpdate/
       <br>
       关闭win10系统更新方法链接：https://pan.baidu.com/s/1txidPH9GdF4DU7kt6jKdOQ
       提取码：8n9v

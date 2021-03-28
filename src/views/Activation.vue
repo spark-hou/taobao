@@ -21,8 +21,12 @@
         <el-divider></el-divider>
         <PicList :list="list1"></PicList>
         <div class="block">
-          <a :href="`${$path}/file/360zip_setup_4.0.0.1200.exe`"
-             download="360zip.exe"
+<!--          <a href="https://yasuo.360.cn/"-->
+<!--             target="_blank"-->
+<!--             class="download">-->
+<!--            点击下载&#45;&#45;360压缩-->
+<!--          </a>   -->
+          <a :href="`${$path}/file/360zip_setup.exe`"
              class="download">
             点击下载--360压缩
           </a>

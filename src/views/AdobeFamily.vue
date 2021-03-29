@@ -6,6 +6,7 @@
     <el-tabs v-model="activeName" @tab-click="tabClick">
       <el-tab-pane label="1.windows平台安装" name="1"/>
       <el-tab-pane label="2.mac平台安装" name="2"/>
+      <el-tab-pane label="3.windows平台安装失败？" name="3"/>
     </el-tabs>
     <div class="g-infoBox">
       <div v-if="activeName==='1'">
@@ -20,6 +21,15 @@
       <div v-if="activeName==='2'">
         <PicList :list="list2"></PicList>
       </div>
+      <div v-if="activeName==='3'">
+        <PicList :list="list3"></PicList>
+        <div class="block">
+          <a :href="`${$path}/file/AdobeCreativeCloudCleanerTool.exe`"
+             download="AdobeCreativeCloudCleanerTool.exe" class="download">
+            点击下载--adobe清理工具
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -33,6 +43,13 @@ const img12 = require('../assets/img/adobeMac/2.png');
 const img13 = require('../assets/img/adobeMac/3.png');
 const img14 = require('../assets/img/adobeMac/4.png');
 const img15 = require('../assets/img/adobeMac/5.png');
+const img21 = require('../assets/img/adobeFail/1.png');
+const img22 = require('../assets/img/adobeFail/2.png');
+const img23 = require('../assets/img/adobeFail/3.png');
+const img24 = require('../assets/img/adobeFail/4.png');
+const img25 = require('../assets/img/adobeFail/5.png');
+const img26 = require('../assets/img/adobeFail/6.png');
+const img27 = require('../assets/img/adobeFail/7.png');
 
 export default {
   name: 'AdobeFamily',
@@ -81,6 +98,42 @@ export default {
         },
         {
           text: '安装完成后，在启动台启动软件',
+        },
+      ],
+      list3: [
+        {
+          text: 'C:\\Program Files (x86)\\Common Files\\Adobe\\backup '
+              + 'C:\\Program Files (x86)\\Common Files\\Adobe\\caps'
+              + 'C:\\Program Files (x86)\\Common Files\\Adobe\\installers'
+              + '先删除这几个文件夹（没有就不管）',
+          url: img21,
+        },
+        {
+          text: '下载下方的清理工具，双击打开',
+          url: img22,
+        },
+        {
+          text: '按e，回车',
+          url: img23,
+        },
+        {
+          text: '按y，回车',
+          url: img24,
+        },
+        {
+          text: '输入‘all’对应的数字，图中对应的是1',
+          url: img25,
+        },
+        {
+          text: '输入‘clean all’对应的数字，图中对应的是3',
+          url: img26,
+        },
+        {
+          text: '按y，回车',
+          url: img27,
+        },
+        {
+          text: '等待清理成功，再重新安装adobe软件',
         },
       ],
     };

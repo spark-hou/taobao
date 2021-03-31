@@ -4,7 +4,7 @@
 * @Description:
 */
 <template>
-  <div class="detail">
+  <div class="detailBox">
     <div style="font-size: 20px">
       Adobe全家桶安装教程请查看链接：https://tool.huashengriji.work/#/AdobeFamily
       <br>
@@ -171,6 +171,30 @@
         <p class="text-danger">制作人：达克越全球购店主</p>
         <p class="text-danger">TB店铺名：达克越全球购</p>
       </div>
+      <div class="mainDetail">
+        <div class="cover"></div>
+        <img class="pic" src="../assets/img/pddAdobe/1.jpg" alt="">
+      </div>
+      <div class="mainDetail">
+        <div class="cover"></div>
+        <img class="pic" src="../assets/img/pddAdobe/2.jpg" alt="">
+      </div>
+      <div class="mainDetail">
+        <div class="cover"></div>
+        <img class="pic" src="../assets/img/pddAdobe/5.jpg" alt="">
+      </div>
+      <div class="detail">
+        <img class="pic" src="../assets/img/pddAdobe/6.jpg" alt="">
+        <div class="cover"></div>
+      </div>
+      <div class="detail">
+        <img class="pic" src="../assets/img/pddAdobe/8.jpg" alt="">
+        <div class="cover"></div>
+      </div>
+      <div class="detail">
+        <img class="pic" src="../assets/img/pddAdobe/9.png" alt="">
+        <div class="cover"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -198,7 +222,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-  .detail {
+  .detailBox {
     .text-info {
       color: #31708f;
     }
@@ -251,6 +275,18 @@ export default {
       padding: 0 20px 5px 20px;
       justify-content: space-between;
       font-size: 20px;
+    }
+
+    .mainDetail {
+      width: 300px;
+      height: 300px;
+      margin: 0 auto 20px auto;
+      box-sizing: border-box;
+      border: 1px solid #e0e0e0;
+      background-size: 300px 100px;
+      position: relative;
+      background-color: rgba(249, 243, 220, 0.5);
+      overflow: hidden;
     }
 
     .detail {
@@ -340,6 +376,12 @@ export default {
       z-index: 1;
       opacity: 0.5;
       overflow: hidden;
+    }
+
+    .pic {
+      display: block;
+      width: 100%;
+      height: 100%;
     }
 
   }

@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <p>
-      <span id="time">{{num}}</span>秒后跳转到花生日记主页
+      <span id="time">{{num}}</span>秒后跳转到省钱返利app
     </p>
   </div>
 </template>
@@ -40,6 +40,11 @@ export default {
 <style scoped lang="stylus">
   p {
     text-align: center;
+    padding 40px;
+    font-family: "Helvetica Neue", Helvetica,
+      "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size 20px;
+    font-weight bolder
   }
 
   #time {

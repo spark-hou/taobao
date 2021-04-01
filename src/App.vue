@@ -16,6 +16,9 @@
       <div class="maker">
         拼多多：榆少的小店铺
       </div>
+      <div class="tips">
+        <a class="g-red" href="https://huashengriji.work">省钱小妙招：淘宝，拼多多，京东多平台合一返利app</a>
+      </div>
     </div>
   </div>
 </template>
@@ -68,6 +71,17 @@ export default {
       color: #a94442;
       font-size: 20px;
       font-weight: bolder
+    }
+
+    .tips {
+      padding-top 20px;
+      font-size 24px
+
+      a {
+        &:hover {
+          text-decoration underline
+        }
+      }
     }
   }
 </style>

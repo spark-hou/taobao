@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d21a3d2"],{bb51:function(n,e,t){"use strict";t.r(e);var a={name:"home",data:function(){return{}},created:function(){},methods:{}},t=t("2877"),a=Object(t.a)(a,function(){var n=this,e=n.$createElement;return(n._self._c||e)("div",{staticClass:"home"},[n._v(" 这是一个空白页面 ")])},[],!1,null,null,null);e.default=a.exports}}]);

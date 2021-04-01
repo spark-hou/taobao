@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    这是一个空白页面
+    <p>
+      <span id="time">{{num}}</span>秒后跳转到花生日记主页
+    </p>
   </div>
 </template>
 
@@ -9,10 +11,39 @@
 export default {
   name: 'home',
   data() {
-    return {};
+    return {
+      time: '',
+      num: 5,
+    };
   },
   created() {
   },
-  methods: {},
+  mounted() {
+    this.time = setInterval(() => {
+      this.count();
+    }, 1000);
+  },
+  destroyed() {
+    clearInterval(this.time);
+  },
+  methods: {
+    count() {
+      if (!this.num) {
+        window.open('https://huashengriji.work', '_self');
+        return;
+      }
+      this.num -= 1;
+    },
+  },
 };
 </script>
+<style scoped lang="stylus">
+  p {
+    text-align: center;
+  }
+
+  #time {
+    color: red;
+  }
+
+</style>

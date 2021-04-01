@@ -5,6 +5,7 @@
  */
 const UglifyPlugin = require('uglifyjs-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
+const CreateCNAME = require('./createCNAME');
 
 module.exports = {
   publicPath: './',
@@ -73,6 +74,7 @@ module.exports = {
           minRatio: 0.8, // 只有压缩率小于这个值的资源才会被处理
           deleteOriginalAssets: false, // 删除原文件
         }),
+        new CreateCNAME(),
       );
     } else {
       // 为开发环境修改配置...
@@ -80,5 +82,5 @@ module.exports = {
     }
   },
 
-  outputDir: 'docs',
+  outputDir: process.env.VUE_APP_OUTPUT,
 };

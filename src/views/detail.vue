@@ -195,6 +195,12 @@
         <img class="pic" src="../assets/img/pddAdobe/9.png" alt="">
         <div class="cover"></div>
       </div>
+      <div class="area" v-for="(item,index) in list" :key="index">
+        <span class="g-red">{{item.title}}</span>
+        下载地址:{{item.val}}
+        <br>
+        Adobe全家桶安装教程请查看链接：https://tool.huashengriji.work/#/AdobeFamily
+      </div>
     </div>
   </div>
 </template>
@@ -203,7 +209,82 @@
 export default {
   name: 'detail',
   data() {
-    return {};
+    return {
+      list: [
+        {
+          title: 'Character(CH)',
+          val: '链接：https://pan.baidu.com/s/1Yr7z61CL-BBUxjeOYoA0aw \n'
+              + '提取码：837g \n'
+              + '复制这段内容后打开百度网盘手机App，操作更方便哦',
+        },
+        {
+          title: 'Dimension(DN)',
+          val: '链接：https://pan.baidu.com/s/1teerw3QYBxWCwC53Ne_rFA \n'
+              + '提取码：bvhy \n'
+              + '复制这段内容后打开百度网盘手机App，操作更方便哦',
+        },
+        {
+          title: 'Dreamweaver(DW)',
+          val: `链接：https://pan.baidu.com/s/1iCMU9FCpyCP-9w9y4btA_A
+          提取码：8inp
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'Illustrator(AI)',
+          val: `链接：https://pan.baidu.com/s/1zZStyhEkp0KQo372DERn0Q
+提取码：ydk7
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'InCopy(IC)',
+          val: `链接：https://pan.baidu.com/s/1dkdqyrIqnHcqB_UbdFOhLg
+提取码：yax3
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'InDesign(ID)',
+          val: `链接：https://pan.baidu.com/s/1TpncIA9G_pf7MIHOUtDNfQ
+提取码：60td
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'Lightroom(LR)',
+          val: `链接：https://pan.baidu.com/s/1AX4I3Xmvaq-w71CPSwXsBg
+提取码：al6v
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'MediaEncoder(ME)',
+          val: `链接：https://pan.baidu.com/s/14e-IfKQGybICwo8HBukCZQ
+提取码：97n6
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'Photoshop(PS)',
+          val: `链接：https://pan.baidu.com/s/19n9A7b6hvxjmmrEPIyFbhA
+提取码：gis8
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'Prelude(PL)',
+          val: `链接：https://pan.baidu.com/s/13I7LpLFuzwhLvfDEnrFEHw
+提取码：anib
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'PremierePro(PR)',
+          val: `链接：https://pan.baidu.com/s/13rFoktP0f3TOkqi4VJBSLg
+提取码：8dxx
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: '全家桶',
+          val: `链接：https://pan.baidu.com/s/1NrAtZJDVyxZ7HC8o0qhUOw
+提取码：7zhw
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+      ],
+    };
   },
   mounted() {
     let text = '';
@@ -382,6 +463,15 @@ export default {
       display: block;
       width: 100%;
       height: 100%;
+    }
+
+    .area {
+      width 700px;
+      margin 0 auto 20px auto;
+      font 16px;
+      color white;
+      background-color #606266;
+      padding 20px
     }
 
   }

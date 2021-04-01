@@ -212,6 +212,30 @@ export default {
     return {
       list: [
         {
+          title: 'AfterEffects(AE)',
+          val: `链接：https://pan.baidu.com/s/1RvKcJnNY5FTe1I7tc-bqsA
+提取码：yi96
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'Animate(AN)',
+          val: `链接：https://pan.baidu.com/s/1wTZ1iOpx1hs3wju7nnHa9Q
+提取码：gu60
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'Audition(AU)',
+          val: `链接：https://pan.baidu.com/s/14FHtRHFg-u0VlrvUTbkevg
+提取码：opef
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
+          title: 'Bridge(BR)',
+          val: `链接：https://pan.baidu.com/s/1v_OgxyNtPRvfMtsrGggW5Q
+提取码：knil
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
+        {
           title: 'Character(CH)',
           val: '链接：https://pan.baidu.com/s/1Yr7z61CL-BBUxjeOYoA0aw \n'
               + '提取码：837g \n'

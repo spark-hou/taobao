@@ -85,7 +85,6 @@
           <!--      <p class="text-info">店主在线服务支持</p>-->
         </div>
         <div class="cover">
-
         </div>
       </div>
       <div class='detail' style="position: relative;overflow: hidden">
@@ -184,6 +183,11 @@
         <img class="pic" src="../assets/img/pddAdobe/5.jpg" alt="">
       </div>
       <div class="detail">
+        <h4>
+          <p class="bg-danger">每个单品，拍下就发送Win/Mac/M1三个平台的多种版本安装包，全部带走！</p>
+        </h4>
+      </div>
+      <div class="detail">
         <img class="pic" src="../assets/img/pddAdobe/6.jpg" alt="">
         <div class="cover"></div>
       </div>
@@ -201,11 +205,63 @@
         <br>
         Adobe全家桶安装教程请查看链接：https://tool.huashengriji.work/#/AdobeFamily
       </div>
+      <div>
+        PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/98cc安装指导adobe
+      </div>
+      <div>
+        软件MAC/WIN/M1/2021/89cc安装包指导adobe
+      </div>
+      <div>
+        全家桶16种应用
+      </div>
+      <div>
+        <div class="four" v-for="(item , index) in list2" :key="index">
+          <div class="cover"></div>
+          <div class="title">
+            {{item.title}}
+          </div>
+          <div class="info title" style="font-size: 24px">
+            2021/20/19/18CC
+          </div>
+          <div class="info title">
+            支持mac/win/m1
+          </div>
+          <img :src="item.src" alt=""/>
+          <div style="display: flex;align-items: center;justify-content: center">
+            <div class="title">
+              简单快捷
+            </div>
+            <div style="width: 40px">
+
+            </div>
+            <div class="title">
+              一键用久
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
 
 <script>
+const ADOBEAE = require('../assets/img/detail/ADOBEAE.svg');
+const ADOBEAI = require('../assets/img/detail/ADOBEAI.svg');
+const ADOBEAN = require('../assets/img/detail/ADOBEAN.svg');
+const ADOBEAU = require('../assets/img/detail/ADOBEAU.svg');
+const ADOBEBR = require('../assets/img/detail/ADOBEBR.svg');
+const ADOBECH = require('../assets/img/detail/ADOBECH.svg');
+const ADOBEDN = require('../assets/img/detail/Dn.svg');
+const ADOBEDW = require('../assets/img/detail/ADOBEDW.svg');
+const AdobeIc = require('../assets/img/detail/AdobeIc.svg');
+const ADOBEld = require('../assets/img/detail/AdobeId.svg');
+const ADOBELR = require('../assets/img/detail/ADOBELR.svg');
+const ADOBEPL = require('../assets/img/detail/ADOBEPL.svg');
+const ADOBEPR = require('../assets/img/detail/ADOBEPR.svg');
+const ADOBEPS = require('../assets/img/detail/ADOBEPS.svg');
+const ME = require('../assets/img/detail/ME.svg');
+
 export default {
   name: 'detail',
   data() {
@@ -308,6 +364,54 @@ export default {
 复制这段内容后打开百度网盘手机App，操作更方便哦`,
         },
       ],
+      list2: [
+        {
+          title: 'AfterEffects(AE)',
+          src: ADOBEAE,
+        }, {
+          title: 'Animate(AN)',
+          src: ADOBEAN,
+        }, {
+          title: 'Audition(AU)',
+          src: ADOBEAU,
+        }, {
+          title: 'Bridge(BR)',
+          src: ADOBEBR,
+        }, {
+          title: 'Character(CH)',
+          src: ADOBECH,
+        }, {
+          title: 'Dimension(DN)',
+          src: ADOBEDN,
+        }, {
+          title: 'Dreamweaver(DW)',
+          src: ADOBEDW,
+        }, {
+          title: 'Illustrator(AI)',
+          src: ADOBEAI,
+        }, {
+          title: 'InCopy(IC)',
+          src: AdobeIc,
+        }, {
+          title: 'InDesign(ID)',
+          src: ADOBEld,
+        }, {
+          title: 'Lightroom(LR)',
+          src: ADOBELR,
+        }, {
+          title: 'Photoshop(PS)',
+          src: ADOBEPS,
+        }, {
+          title: 'Prelude(PL)',
+          src: ADOBEPL,
+        }, {
+          title: 'PremierePro(PR)',
+          src: ADOBEPR,
+        }, {
+          title: 'MediaEncoder(ME)',
+          src: ME,
+        },
+      ],
     };
   },
   mounted() {
@@ -404,6 +508,35 @@ export default {
       padding: 10px;
       position: relative;
       overflow: hidden;
+    }
+
+    .four {
+      display inline-block
+      width: 420px;
+      height: 420px;
+      margin: 10px;
+      box-sizing: border-box;
+      border: 1px solid #e0e0e0;
+      background-size: 300px 100px;
+      position: relative;
+      overflow: hidden;
+      text-align center;
+      background-color #1A1A1A;
+
+      .title {
+        font-size 30px;
+        color #EEF11A;
+        font-family "Microsoft YaHei";
+        font-weight bolder;
+      }
+
+      .info {
+        color white !important;
+      }
+
+      img {
+
+      }
     }
 
     .detail p {

@@ -203,7 +203,10 @@
         <span class="g-red">{{item.title}}</span>
         下载地址:{{item.val}}
         <br>
-        Adobe全家桶安装教程请查看链接：https://tool.huashengriji.work/#/AdobeFamily
+        ------------------------------------------
+        <br>
+        《《下载前，请先查看教程》》
+        Adobe全家桶安装教程网址：https://tool.huashengriji.work/#/AdobeFamily
       </div>
       <div>
         PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/98cc安装指导adobe
@@ -261,12 +264,19 @@ const ADOBEPL = require('../assets/img/detail/ADOBEPL.svg');
 const ADOBEPR = require('../assets/img/detail/ADOBEPR.svg');
 const ADOBEPS = require('../assets/img/detail/ADOBEPS.svg');
 const ME = require('../assets/img/detail/ME.svg');
+const pdf = require('../assets/img/detail/pdf.svg');
 
 export default {
   name: 'detail',
   data() {
     return {
       list: [
+        {
+          title: 'AcrobatReader(pdf)',
+          val: `链接：https://pan.baidu.com/s/1cazPOkZ9nXohuDb8A3b7pQ
+提取码：ju3i
+复制这段内容后打开百度网盘手机App，操作更方便哦`,
+        },
         {
           title: 'AfterEffects(AE)',
           val: `链接：https://pan.baidu.com/s/1RvKcJnNY5FTe1I7tc-bqsA
@@ -359,8 +369,8 @@ export default {
         },
         {
           title: '全家桶',
-          val: `链接：https://pan.baidu.com/s/1NrAtZJDVyxZ7HC8o0qhUOw
-提取码：7zhw
+          val: `链接：https://pan.baidu.com/s/1qnQMei-mGOlNdZEys7tpCA
+提取码：tqa2
 复制这段内容后打开百度网盘手机App，操作更方便哦`,
         },
       ],
@@ -410,6 +420,9 @@ export default {
         }, {
           title: 'MediaEncoder(ME)',
           src: ME,
+        }, {
+          title: 'AcrobatReader(pdf)',
+          src: pdf,
         },
       ],
     };

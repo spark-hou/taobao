@@ -3,6 +3,12 @@
     <div class="g-pageHead">
       {{title}}
     </div>
+    <div class="g-red g-h4">提示：
+      <br>
+      windows电脑请到win分类里面下载，对应文件后缀.zip
+      <br>
+      mac电脑请到mac文件夹中下载，对应文件后缀.dmg
+    </div>
     <el-tabs v-model="activeName" @tab-click="tabClick">
       <el-tab-pane label="1.windows平台安装" name="1"/>
       <el-tab-pane label="2.mac平台安装" name="2"/>

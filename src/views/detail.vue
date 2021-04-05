@@ -6,7 +6,7 @@
 <template>
   <div class="detailBox">
     <div style="font-size: 20px">
-      Adobe全家桶安装教程请查看链接：https://tool.huashengriji.work/#/AdobeFamily
+      Adobe全家桶安装教程请查看链接：
       <br>
       win10版本请查看链接：https://tool.huashengriji.work/#/Activation
       <br>
@@ -207,6 +207,10 @@
         <br>
         《《下载前，请先查看教程》》
         Adobe全家桶安装教程网址：https://tool.huashengriji.work/#/AdobeFamily
+        <br>
+        ------------------------------------------
+        <br>
+        解压密码：@vposy
       </div>
       <div>
         PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/98cc安装指导adobe

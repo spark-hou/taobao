@@ -222,7 +222,7 @@
         全家桶16种应用
       </div>
       <div>
-        <div class="four" v-for="(item , index) in list2" :key="index">
+        <div class="four getPic" v-for="(item , index) in list2" :key="index">
           <div class="cover"></div>
           <div class="title">
             {{item.title}}
@@ -247,12 +247,17 @@
           </div>
         </div>
       </div>
+      <div style="display: flex;justify-content: center">
+        <el-button @click="getPic" type="danger">生成图片</el-button>
+      </div>
 
     </div>
   </div>
 </template>
 
 <script>
+import html2canvas from 'html2canvas';
+
 const ADOBEAE = require('../assets/img/detail/ADOBEAE.svg');
 const ADOBEAI = require('../assets/img/detail/ADOBEAI.svg');
 const ADOBEAN = require('../assets/img/detail/ADOBEAN.svg');
@@ -442,7 +447,46 @@ export default {
     });
   },
 
-  methods: {},
+  methods: {
+    getPic() {
+      // this.downImg(document.querySelector('.getPic'));
+      this.downImg(document.querySelector('.detailBox'));
+      console.log(document.body.clientHeight, document.body.clientWidth);
+      // $('.getPic')
+      //   .each((index, item) => {
+      //     this.downImg(item);
+      //   });
+    },
+    downImg(ele) {
+      const canvas2 = document.createElement('canvas');
+      const w = parseInt(window.getComputedStyle(ele).width, 10);
+      const h = parseInt(window.getComputedStyle(ele).height, 10);
+      // 将canvas画布放大若干倍，然后盛放在较小的容器内，就显得不模糊了
+      canvas2.width = w * 2;
+      canvas2.height = h * 2;
+      canvas2.style.width = `${w}px`;
+      canvas2.style.height = `${h}px`;
+      // 可以按照自己的需求，对context的参数修改,translate指的是偏移量
+      //  var context = canvas.getContext("2d");
+      //  context.translate(0,0);
+      const context = canvas2.getContext('2d');
+      context.scale(2, 2);
+      html2canvas(ele, {
+        windowWidth: document.body.clientWidth,
+        windowHeight: document.body.clientHeight,
+      })
+        .then((canvas) => {
+          canvas.width = 480;
+          canvas.height = 480;
+          const a = document.createElement('a');
+          a.download = `xds${new Date().getTime()}` || '下载图片名称';// 这边是文件名，可以自定义
+          a.href = canvas.toDataURL();
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        });
+    },
+  },
 
 };
 </script>

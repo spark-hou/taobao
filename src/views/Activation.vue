@@ -39,6 +39,13 @@
             点击下载--永久激活工具
           </a>
         </div>
+        <div class="block">
+          <a :href="`${$path}/file/micro2019.01.18.exe`"
+             download="辅助工具.exe"
+             class="download">
+            点击下载--辅助工具
+          </a>
+        </div>
       </div>
       <div v-if="activeName==='2'">
         <PicList :list="list2"></PicList>

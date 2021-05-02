@@ -206,22 +206,22 @@
         ------------------------------------------
         <br>
         《《下载前，请先查看教程》》
-        Adobe全家桶安装教程网址：https://tool.huashengriji.work/#/AdobeFamily
+        全家桶安装教程网址：https://tool.huashengriji.work/#/AdobeFamily
         <br>
         ------------------------------------------
         <br>
         解压密码：@vposy
       </div>
       <div>
-        PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/98cc安装指导adobe
+        PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/19/18cc安装指导
       </div>
       <div>
-        软件MAC/WIN/M1/2021/89cc安装包指导adobe
+        软件MAC/WIN/M1/2021/20/19/18cc安装包指导
       </div>
       <div>
         全家桶16种应用
       </div>
-      <div>
+      <div style="display: flex;flex-wrap: wrap">
         <div class="picBox" v-for="(item , index) in list2" :key="index" :data-title="item.title">
           <div class="four getPic">
             <div class="cover"></div>
@@ -563,7 +563,6 @@ export default {
       display inline-block
       width: 420px;
       height: 420px;
-      margin: 10px;
       box-sizing: border-box;
       border: 1px solid #1A1A1A;
       position: relative;
@@ -588,7 +587,7 @@ export default {
     }
 
     .picBox {
-      display inline-block
+      display flex;
     }
 
     .detail p {

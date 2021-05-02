@@ -458,10 +458,7 @@ export default {
     },
     downImg(ele) {
       console.dir(ele);
-      domtoimage.toPng(ele, {
-        width: 480,
-        height: 480,
-      })
+      domtoimage.toPng(ele, {})
         .then((dataUrl) => {
           const a = document.createElement('a');
           a.download = ele.getAttribute('data-title') || `xds${new Date().getTime()}`;// 这边是文件名，可以自定义
@@ -561,10 +558,10 @@ export default {
 
     .four {
       display inline-block
-      width: 420px;
-      height: 420px;
+      width: 480px;
+      height: 480px;
       box-sizing: border-box;
-      border: 1px solid #1A1A1A;
+      border: 0px solid #1A1A1A;
       position: relative;
       overflow: hidden;
       text-align center;

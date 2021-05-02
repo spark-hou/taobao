@@ -222,27 +222,29 @@
         全家桶16种应用
       </div>
       <div>
-        <div class="four getPic" v-for="(item , index) in list2" :key="index">
-          <div class="cover"></div>
-          <div class="title">
-            {{item.title}}
-          </div>
-          <div class="info title" style="font-size: 24px">
-            2021/20/19/18CC
-          </div>
-          <div class="info title">
-            支持mac/win/m1
-          </div>
-          <img :src="item.src" alt=""/>
-          <div style="display: flex;align-items: center;justify-content: center">
+        <div class="picBox" v-for="(item , index) in list2" :key="index" :data-title="item.title">
+          <div class="four getPic">
+            <div class="cover"></div>
             <div class="title">
-              简单快捷
+              {{item.title}}
             </div>
-            <div style="width: 40px">
+            <div class="info title" style="font-size: 24px">
+              2021/20/19/18CC
+            </div>
+            <div class="info title">
+              支持mac/win/m1
+            </div>
+            <img :src="item.src" alt=""/>
+            <div style="display: flex;align-items: center;justify-content: center">
+              <div class="title">
+                简单快捷
+              </div>
+              <div style="width: 40px">
 
-            </div>
-            <div class="title">
-              一键用久
+              </div>
+              <div class="title">
+                一键用久
+              </div>
             </div>
           </div>
         </div>
@@ -256,7 +258,7 @@
 </template>
 
 <script>
-import html2canvas from 'html2canvas';
+import domtoimage from 'dom-to-image';
 
 const ADOBEAE = require('../assets/img/detail/ADOBEAE.svg');
 const ADOBEAI = require('../assets/img/detail/ADOBEAI.svg');
@@ -449,41 +451,27 @@ export default {
 
   methods: {
     getPic() {
-      // this.downImg(document.querySelector('.getPic'));
-      this.downImg(document.querySelector('.detailBox'));
-      console.log(document.body.clientHeight, document.body.clientWidth);
-      // $('.getPic')
-      //   .each((index, item) => {
-      //     this.downImg(item);
-      //   });
+      $('.picBox')
+        .each((index, item) => {
+          this.downImg(item);
+        });
     },
     downImg(ele) {
-      const canvas2 = document.createElement('canvas');
-      const w = parseInt(window.getComputedStyle(ele).width, 10);
-      const h = parseInt(window.getComputedStyle(ele).height, 10);
-      // 将canvas画布放大若干倍，然后盛放在较小的容器内，就显得不模糊了
-      canvas2.width = w * 2;
-      canvas2.height = h * 2;
-      canvas2.style.width = `${w}px`;
-      canvas2.style.height = `${h}px`;
-      // 可以按照自己的需求，对context的参数修改,translate指的是偏移量
-      //  var context = canvas.getContext("2d");
-      //  context.translate(0,0);
-      const context = canvas2.getContext('2d');
-      context.scale(2, 2);
-      html2canvas(ele, {
-        windowWidth: document.body.clientWidth,
-        windowHeight: document.body.clientHeight,
+      console.dir(ele);
+      domtoimage.toPng(ele, {
+        width: 480,
+        height: 480,
       })
-        .then((canvas) => {
-          canvas.width = 480;
-          canvas.height = 480;
+        .then((dataUrl) => {
           const a = document.createElement('a');
-          a.download = `xds${new Date().getTime()}` || '下载图片名称';// 这边是文件名，可以自定义
-          a.href = canvas.toDataURL();
+          a.download = ele.getAttribute('data-title') || `xds${new Date().getTime()}`;// 这边是文件名，可以自定义
+          a.href = dataUrl;
           document.body.appendChild(a);
           a.click();
           document.body.removeChild(a);
+        })
+        .catch((error) => {
+          console.error('oops, something went wrong!', error);
         });
     },
   },
@@ -577,8 +565,7 @@ export default {
       height: 420px;
       margin: 10px;
       box-sizing: border-box;
-      border: 1px solid #e0e0e0;
-      background-size: 300px 100px;
+      border: 1px solid #1A1A1A;
       position: relative;
       overflow: hidden;
       text-align center;
@@ -598,6 +585,10 @@ export default {
       img {
 
       }
+    }
+
+    .picBox {
+      display inline-block
     }
 
     .detail p {

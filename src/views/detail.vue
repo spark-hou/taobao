@@ -182,22 +182,27 @@
         <div class="cover"></div>
         <img class="pic" src="../assets/img/pddAdobe/5.jpg" alt="">
       </div>
-      <div class="detail">
-        <h4>
-          <p class="bg-danger">每个单品，拍下就发送Win/Mac/M1三个平台的多种版本安装包，全部带走！</p>
-        </h4>
+      <div id="adobeDetail">
+        <div class="detail">
+          <h4>
+            <p class="bg-danger">每个单品，拍下就发送Win/Mac/M1三个平台的多种版本安装包，全部带走！</p>
+          </h4>
+        </div>
+        <div class="detail">
+          <img class="pic" src="../assets/img/pddAdobe/6.jpg" alt="">
+          <div class="cover"></div>
+        </div>
+        <div class="detail">
+          <img class="pic" src="../assets/img/pddAdobe/8.jpg" alt="">
+          <div class="cover"></div>
+        </div>
+        <div class="detail">
+          <img class="pic" src="../assets/img/pddAdobe/9.png" alt="">
+          <div class="cover"></div>
+        </div>
       </div>
-      <div class="detail">
-        <img class="pic" src="../assets/img/pddAdobe/6.jpg" alt="">
-        <div class="cover"></div>
-      </div>
-      <div class="detail">
-        <img class="pic" src="../assets/img/pddAdobe/8.jpg" alt="">
-        <div class="cover"></div>
-      </div>
-      <div class="detail">
-        <img class="pic" src="../assets/img/pddAdobe/9.png" alt="">
-        <div class="cover"></div>
+      <div style="display: flex;justify-content: center">
+        <el-button @click="getAdobeDetail" type="danger">打印adobeDetail</el-button>
       </div>
       <div class="area" v-for="(item,index) in list" :key="index">
         <span class="g-red">{{item.title}}</span>
@@ -216,7 +221,7 @@
         PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/19/18cc安装指导
       </div>
       <div>
-        软件MAC/WIN/M1/2021/20/19/18cc安装包指导
+        软件MAC/WIN/M1/2021/20/19/18cc安装包技术指导
       </div>
       <div>
         全家桶16种应用
@@ -457,11 +462,24 @@ export default {
         });
     },
     downImg(ele) {
-      console.dir(ele);
       domtoimage.toPng(ele, {})
         .then((dataUrl) => {
           const a = document.createElement('a');
           a.download = ele.getAttribute('data-title') || `xds${new Date().getTime()}`;// 这边是文件名，可以自定义
+          a.href = dataUrl;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        })
+        .catch((error) => {
+          console.error('oops, something went wrong!', error);
+        });
+    },
+    getAdobeDetail() {
+      domtoimage.toPng(document.getElementById('adobeDetail'), {})
+        .then((dataUrl) => {
+          const a = document.createElement('a');
+          a.download = `xds${new Date().getTime()}`;// 这边是文件名，可以自定义
           a.href = dataUrl;
           document.body.appendChild(a);
           a.click();

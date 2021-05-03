@@ -5,258 +5,349 @@
 */
 <template>
   <div class="detailBox">
-    <div style="font-size: 20px">
-      Adobe全家桶安装教程请查看链接：
-      <br>
-      win10版本请查看链接：https://tool.huashengriji.work/#/Activation
-      <br>
-      win10版本请查看链接：https://pan.baidu.com/s/1cQIiKH6WuCTJXr7cBf6Kmg
-      提取码：j9qv
-      复制这段内容后打开百度网盘手机App，操作更方便哦
-      <br>
-      win7/8版本请查看链接：https://tool.huashengriji.work/#/win7and8
-      <br>
-      win7/8版本请查看链接：https://pan.baidu.com/s/1I2CEsM3Jj3YVNI1QXi-GAA
-      提取码：pp3h
-      复制这段内容后打开百度网盘手机App，操作更方便哦
-      <br>
-      打开win10系统更新方法：https://tool.huashengriji.work/#/enableUpdate/
-      <br>
-      打开win10系统更新方法链接：https://pan.baidu.com/s/1vj3Zo82eqGRKwlbdQk1gCA
-      提取码：zalk
-      复制这段内容后打开百度网盘手机App，操作更方便哦
-      <br>
-      关闭win10系统更新方法：https://tool.huashengriji.work/#/disableUpdate/
-      <br>
-      关闭win10系统更新方法链接：https://pan.baidu.com/s/1txidPH9GdF4DU7kt6jKdOQ
-      提取码：8n9v
-      复制这段内容后打开百度网盘手机App，操作更方便哦
-      <br>
-      win10激活链接:https://pan.baidu.com/s/14eHD_gYB7PD9SNbVfFRpCQ 提取码:ywp6 复制这段内容后打开百度网盘手机App，操作更方便哦 <br>
-    </div>
     <div class="container">
-      <div class="title">
-        win10许可证过期windows许可证即将过期win8/win7问题解决服务
-      </div>
-      <div class="mainPic">
-        <p class="text-info">解决windows许可证到期</p>
-        <p class="text-danger">win10/win8/win7(支持)</p>
-        <p class="partTwo text-warning"><span>简单的操作</span>+<span>操作指引文档</span></p>
-        <p class="text-warning">店主服务支持</p>
-        <p class="partTwo text-warning"><span>支持远程协助</span><span>无效可退款</span></p>
-        <img src="../assets/img/detail/1.jpg" alt="">
-        <div class="cover">
-
-        </div>
-      </div>
-      <div class=detail>
-        <h4>
-          <p class="bg-danger">24小时自动发货，无需等待，有详细的指引。如遇疑问，请询问店主</p>
-        </h4>
-        <h4>
-          <div class="page-header">
-            <h1 class="text-danger">提示：
-              <small>本店提供的工具是安全的，请根据指引文档操作，外加细致全面的引导文档，小白无惧</small>
-            </h1>
+      <el-tabs v-model="activeName" @tab-click="handleClick">
+        <el-tab-pane label="奇奇怪怪" name="1">
+          <div style="font-size: 20px">
+            Adobe全家桶安装教程请查看链接：
+            <br>
+            win10版本请查看链接：https://tool.huashengriji.work/#/Activation
+            <br>
+            win10版本请查看链接：https://pan.baidu.com/s/1cQIiKH6WuCTJXr7cBf6Kmg
+            提取码：j9qv
+            复制这段内容后打开百度网盘手机App，操作更方便哦
+            <br>
+            win7/8版本请查看链接：https://tool.huashengriji.work/#/win7and8
+            <br>
+            win7/8版本请查看链接：https://pan.baidu.com/s/1I2CEsM3Jj3YVNI1QXi-GAA
+            提取码：pp3h
+            复制这段内容后打开百度网盘手机App，操作更方便哦
+            <br>
+            打开win10系统更新方法：https://tool.huashengriji.work/#/enableUpdate/
+            <br>
+            打开win10系统更新方法链接：https://pan.baidu.com/s/1vj3Zo82eqGRKwlbdQk1gCA
+            提取码：zalk
+            复制这段内容后打开百度网盘手机App，操作更方便哦
+            <br>
+            关闭win10系统更新方法：https://tool.huashengriji.work/#/disableUpdate/
+            <br>
+            关闭win10系统更新方法链接：https://pan.baidu.com/s/1txidPH9GdF4DU7kt6jKdOQ
+            提取码：8n9v
+            复制这段内容后打开百度网盘手机App，操作更方便哦
+            <br>
+            win10激活链接:https://pan.baidu.com/s/14eHD_gYB7PD9SNbVfFRpCQ 提取码:ywp6 复制这段内容后打开百度网盘手机App，操作更方便哦 <br>
           </div>
-        </h4>
-        <h1>简单的操作，一直有效，详细的指引文档（无效包退）</h1>
-        <p class="text-info">解决windows许可证到期</p>
-        <p class="text-danger">win10/win8/win7(全支持)</p>
-        <p class="partTwo text-warning"><span>一键简单操作</span>+<span>操作指引文档</span></p>
-        <p class="text-warning">店主在线服务支持</p>
-        <p class="partTwo text-warning"><span>支持远程协助</span><span>无效退款</span></p>
-        <p class="text-info">10系统处理后效果</p>
-        <img src="../assets/img/win10/6.jpg" alt="">
-        <div class="cover">
-
-        </div>
-      </div>
-      <div class="title">
-        关闭禁止win10系统自动更新关闭windows10自动更新解决支持服务
-      </div>
-
-      <div class="update text-info" style="position: relative;overflow: hidden">
-        <div class="top">
-          <p class="text-info">简单关闭Wl.n10自动更新</p>
-          <p class="partTwo text-info"><span>简单操作</span>+<span>操作指引文档</span></p>
-          <p class="text-info">两种方案可选，自由选择</p>
-          <!--      <p class="partTwo text-info"><span>支持远程协助</span><span>无效退款</span></p>-->
-          <!--      <p class="text-info">店主在线服务支持</p>-->
-        </div>
-        <div class="cover">
-        </div>
-      </div>
-      <div class='detail' style="position: relative;overflow: hidden">
-        <h4>
-          <p class="bg-danger">24小时自动发货，无需等待，有详细的指引。如遇疑问，请询问店主</p>
-        </h4>
-        <h4>
-          <div class="page-header">
-            <h1 class="text-danger">提示：
-              <small>两种方式关闭win10自动更新，可以控制再开启，以备不时之需，外加细致全面的引导文档，小白无惧</small>
-            </h1>
+        </el-tab-pane>
+        <el-tab-pane label="Windows软件" name="first">
+          <div class="title">
+            win10许可证过期windows许可证即将过期win8/win7问题解决服务
           </div>
-        </h4>
-        <h1>店主自创2种方案关闭自动更新（一次付费，给两种方案，无效退款）</h1>
-        <h4>
-          <div class="page-header">
-            <h4 class="text-danger">方案一（可以自己控制跟更新的开关，可操控）：
-              <small>使用工具控制开关，在特殊情况下，可以快速打开</small>
+          <div class="mainPic">
+            <p class="text-info">解决windows许可证到期</p>
+            <p class="text-danger">win10/win8/win7(支持)</p>
+            <p class="partTwo text-warning"><span>简单的操作</span>+<span>操作指引文档</span></p>
+            <p class="text-warning">店主服务支持</p>
+            <p class="partTwo text-warning"><span>支持远程协助</span><span>无效可退款</span></p>
+            <img src="../assets/img/detail/1.jpg" alt="">
+            <div class="cover">
+
+            </div>
+          </div>
+          <div class=detail>
+            <h4>
+              <p class="bg-danger">24小时自动发货，无需等待，有详细的指引。如遇疑问，请询问店主</p>
             </h4>
-          </div>
-        </h4>
-        <h4>
-          <div class="page-header">
-            <h4 class="text-danger">方案二（直接剥夺系统权限）：
-              <small>暴力关闭更新，开启麻烦，从底层关闭</small>
+            <h4>
+              <div class="page-header">
+                <h1 class="text-danger">提示：
+                  <small>本店提供的工具是安全的，请根据指引文档操作，外加细致全面的引导文档，小白无惧</small>
+                </h1>
+              </div>
             </h4>
-          </div>
-        </h4>
-        <p class="">永久关闭win10自动更新</p>
-        <p class="partTwo text-warning"><span>一键简单操作</span>+<span>操作指引文档</span></p>
-        <p class="text-warning">两种方案可选，自由选择</p>
-        <p class="partTwo text-warning"><span>支持远程协助</span><span>无效退款</span></p>
-        <p>店主在线服务支持</p>
-        <img src="../assets/img/detail/update.jpg" alt="">
-        <div class="cover">
+            <h1>简单的操作，一直有效，详细的指引文档（无效包退）</h1>
+            <p class="text-info">解决windows许可证到期</p>
+            <p class="text-danger">win10/win8/win7(全支持)</p>
+            <p class="partTwo text-warning"><span>一键简单操作</span>+<span>操作指引文档</span></p>
+            <p class="text-warning">店主在线服务支持</p>
+            <p class="partTwo text-warning"><span>支持远程协助</span><span>无效退款</span></p>
+            <p class="text-info">10系统处理后效果</p>
+            <img src="../assets/img/win10/6.jpg" alt="">
+            <div class="cover">
 
-        </div>
-      </div>
-      <div class="title">
-        纯净版PE制作工具 U盘优盘启动盘远程制作
-      </div>
-      <div class="update pe" style="color: white">
-        <div class="top">
-          <p class="">纯净PE制作工具</p>
-          <p class="partTwo text-warning"><span>一键简单操作</span>+<span>详细指引文档</span></p>
-          <p class="text-warning">0捆绑0广告绝对纯净</p>
-          <p class="partTwo text-warning"><span>支持远程协助</span></p>
-          <p><span class="border-red">支持nvme固态</span></p>
-        </div>
-        <img src="../assets/img/detail/pe.jpg" alt="" style="opacity: 1">
-      </div>
-      <div class=detail>
-        <h4>
-          <p class="bg-danger">24小时自动发货，无需等待，有详细的指引。如遇疑问，请询问店主</p>
-        </h4>
-        <h4>
-          <div class="page-header">
-            <h1 class="text-danger">提示：
-              <small>本产品，只指导PE制作，不提供后续重装系统的技术支持（需要请另付费）</small>
-            </h1>
+            </div>
           </div>
-        </h4>
-        <h2 class="text-danger">收货后好评，再送纯净系统镜像</h2>
-        <h4>
-          <div class="page-header">
-            <h4 class="text-danger">纯净PE：
-              <small>区别于老毛桃，大白菜等pe，不会捆绑任何流氓软件</small>
+          <div class="title">
+            关闭禁止win10系统自动更新关闭windows10自动更新解决支持服务
+          </div>
+
+          <div class="update text-info" style="position: relative;overflow: hidden">
+            <div class="top">
+              <p class="text-info">简单关闭Wl.n10自动更新</p>
+              <p class="partTwo text-info"><span>简单操作</span>+<span>操作指引文档</span></p>
+              <p class="text-info">两种方案可选，自由选择</p>
+              <!--      <p class="partTwo text-info"><span>支持远程协助</span><span>无效退款</span></p>-->
+              <!--      <p class="text-info">店主在线服务支持</p>-->
+            </div>
+            <div class="cover">
+            </div>
+          </div>
+          <div class='detail' style="position: relative;overflow: hidden">
+            <h4>
+              <p class="bg-danger">24小时自动发货，无需等待，有详细的指引。如遇疑问，请询问店主</p>
             </h4>
+            <h4>
+              <div class="page-header">
+                <h1 class="text-danger">提示：
+                  <small>两种方式关闭win10自动更新，可以控制再开启，以备不时之需，外加细致全面的引导文档，小白无惧</small>
+                </h1>
+              </div>
+            </h4>
+            <h1>店主自创2种方案关闭自动更新（一次付费，给两种方案，无效退款）</h1>
+            <h4>
+              <div class="page-header">
+                <h4 class="text-danger">方案一（可以自己控制跟更新的开关，可操控）：
+                  <small>使用工具控制开关，在特殊情况下，可以快速打开</small>
+                </h4>
+              </div>
+            </h4>
+            <h4>
+              <div class="page-header">
+                <h4 class="text-danger">方案二（直接剥夺系统权限）：
+                  <small>暴力关闭更新，开启麻烦，从底层关闭</small>
+                </h4>
+              </div>
+            </h4>
+            <p class="">永久关闭win10自动更新</p>
+            <p class="partTwo text-warning"><span>一键简单操作</span>+<span>操作指引文档</span></p>
+            <p class="text-warning">两种方案可选，自由选择</p>
+            <p class="partTwo text-warning"><span>支持远程协助</span><span>无效退款</span></p>
+            <p>店主在线服务支持</p>
+            <img src="../assets/img/detail/update.jpg" alt="">
+            <div class="cover">
+
+            </div>
           </div>
-        </h4>
-        <h4>
-          <div class="page-header">
-            <h4 class="text-danger">一键制作超简单+贴心的教程指导</h4>
+          <div class="title">
+            纯净版PE制作工具 U盘优盘启动盘远程制作
           </div>
-        </h4>
-        <p class="">纯净PE制作工具</p>
-        <p class="partTwo text-warning"><span>一键简单操作</span>+<span>详细指引文档</span></p>
-        <p class="text-warning">0捆绑0广告绝对纯净</p>
-        <p class="partTwo text-warning"><span>支持远程协助</span></p>
-        <p><span class="border-red">支持nvme固态</span></p>
-      </div>
-      <div style="font-size: 24px">
-        <p class="text-danger">制作人：达克越全球购店主</p>
-        <p class="text-danger">TB店铺名：达克越全球购</p>
-      </div>
-      <div class="mainDetail">
-        <div class="cover"></div>
-        <img class="pic" src="../assets/img/pddAdobe/1.jpg" alt="">
-      </div>
-      <div class="mainDetail">
-        <div class="cover"></div>
-        <img class="pic" src="../assets/img/pddAdobe/2.jpg" alt="">
-      </div>
-      <div class="mainDetail">
-        <div class="cover"></div>
-        <img class="pic" src="../assets/img/pddAdobe/5.jpg" alt="">
-      </div>
-      <div id="adobeDetail">
-        <div class="detail">
-          <h4>
-            <p class="bg-danger">每个单品，拍下就发送Win/Mac/M1三个平台的多种版本安装包，全部带走！</p>
-          </h4>
-        </div>
-        <div class="detail">
-          <img class="pic" src="../assets/img/pddAdobe/6.jpg" alt="">
-          <div class="cover"></div>
-        </div>
-        <div class="detail">
-          <img class="pic" src="../assets/img/pddAdobe/8.jpg" alt="">
-          <div class="cover"></div>
-        </div>
-        <div class="detail">
-          <img class="pic" src="../assets/img/pddAdobe/9.png" alt="">
-          <div class="cover"></div>
-        </div>
-      </div>
-      <div style="display: flex;justify-content: center">
-        <el-button @click="getAdobeDetail" type="danger">打印adobeDetail</el-button>
-      </div>
-      <div class="area" v-for="(item,index) in list" :key="index">
-        <span class="g-red">{{item.title}}</span>
-        下载地址:{{item.val}}
-        <br>
-        ------------------------------------------
-        <br>
-        《《下载前，请先查看教程》》
-        全家桶安装教程网址：https://tool.huashengriji.work/#/AdobeFamily
-        <br>
-        ------------------------------------------
-        <br>
-        解压密码：@vposy
-      </div>
-      <div>
-        PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/19/18cc安装指导
-      </div>
-      <div>
-        软件MAC/WIN/M1/2021/20/19/18cc安装包技术指导
-      </div>
-      <div>
-        全家桶16种应用
-      </div>
-      <div style="display: flex;flex-wrap: wrap">
-        <div class="picBox" v-for="(item , index) in list2" :key="index" :data-title="item.title">
-          <div class="four getPic">
+          <div class="update pe" style="color: white">
+            <div class="top">
+              <p class="">纯净PE制作工具</p>
+              <p class="partTwo text-warning"><span>一键简单操作</span>+<span>详细指引文档</span></p>
+              <p class="text-warning">0捆绑0广告绝对纯净</p>
+              <p class="partTwo text-warning"><span>支持远程协助</span></p>
+              <p><span class="border-red">支持nvme固态</span></p>
+            </div>
+            <img src="../assets/img/detail/pe.jpg" alt="" style="opacity: 1">
+          </div>
+          <div class=detail>
+            <h4>
+              <p class="bg-danger">24小时自动发货，无需等待，有详细的指引。如遇疑问，请询问店主</p>
+            </h4>
+            <h4>
+              <div class="page-header">
+                <h1 class="text-danger">提示：
+                  <small>本产品，只指导PE制作，不提供后续重装系统的技术支持（需要请另付费）</small>
+                </h1>
+              </div>
+            </h4>
+            <h2 class="text-danger">收货后好评，再送纯净系统镜像</h2>
+            <h4>
+              <div class="page-header">
+                <h4 class="text-danger">纯净PE：
+                  <small>区别于老毛桃，大白菜等pe，不会捆绑任何流氓软件</small>
+                </h4>
+              </div>
+            </h4>
+            <h4>
+              <div class="page-header">
+                <h4 class="text-danger">一键制作超简单+贴心的教程指导</h4>
+              </div>
+            </h4>
+            <p class="">纯净PE制作工具</p>
+            <p class="partTwo text-warning"><span>一键简单操作</span>+<span>详细指引文档</span></p>
+            <p class="text-warning">0捆绑0广告绝对纯净</p>
+            <p class="partTwo text-warning"><span>支持远程协助</span></p>
+            <p><span class="border-red">支持nvme固态</span></p>
+          </div>
+          <div style="font-size: 24px">
+            <p class="text-danger">制作人：达克越全球购店主</p>
+            <p class="text-danger">TB店铺名：达克越全球购</p>
+          </div>
+        </el-tab-pane>
+        <el-tab-pane label="adobe" name="2">
+          <div class="mainDetail">
             <div class="cover"></div>
-            <div class="title">
-              {{item.title}}
+            <img class="pic" src="../assets/img/pddAdobe/1.jpg" alt="">
+          </div>
+          <div class="mainDetail">
+            <div class="cover"></div>
+            <img class="pic" src="../assets/img/pddAdobe/2.jpg" alt="">
+          </div>
+          <div class="mainDetail">
+            <div class="cover"></div>
+            <img class="pic" src="../assets/img/pddAdobe/5.jpg" alt="">
+          </div>
+          <div id="adobeDetail">
+            <div class="detail">
+              <h4>
+                <p class="bg-danger">每个单品，拍下就发送Win/Mac/M1三个平台的多种版本安装包，全部带走！</p>
+              </h4>
             </div>
-            <div class="info title" style="font-size: 24px">
-              2021/20/19/18CC
+            <div class="detail">
+              <img class="pic" src="../assets/img/pddAdobe/6.jpg" alt="">
+              <div class="cover"></div>
             </div>
-            <div class="info title">
-              支持mac/win/m1
+            <div class="detail">
+              <img class="pic" src="../assets/img/pddAdobe/8.jpg" alt="">
+              <div class="cover"></div>
             </div>
-            <img :src="item.src" alt=""/>
-            <div style="display: flex;align-items: center;justify-content: center">
-              <div class="title">
-                简单快捷
-              </div>
-              <div style="width: 40px">
+            <div class="detail">
+              <img class="pic" src="../assets/img/pddAdobe/9.png" alt="">
+              <div class="cover"></div>
+            </div>
+          </div>
+          <div style="display: flex;justify-content: center">
+            <el-button @click="getAdobeDetail" type="danger">打印adobeDetail</el-button>
+          </div>
+          <div class="area" v-for="(item,index) in list" :key="index">
+            <span class="g-red">{{item.title}}</span>
+            下载地址:{{item.val}}
+            <br>
+            ------------------------------------------
+            <br>
+            《《下载前，请先查看教程》》
+            全家桶安装教程网址：https://tool.huashengriji.work/#/AdobeFamily
+            <br>
+            ------------------------------------------
+            <br>
+            解压密码：@vposy
+          </div>
+          <div>
+            PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/19/18cc安装指导
+          </div>
+          <div>
+            软件MAC/WIN/M1/2021/20/19/18cc安装包技术指导
+          </div>
+          <div>
+            全家桶16种应用
+          </div>
+          <div style="display: flex;flex-wrap: wrap">
+            <div class="picBox" v-for="(item , index) in list2"
+                 :key="index"
+                 :data-title="item.title">
+              <div class="four getPic">
+                <div class="cover"></div>
+                <div class="title">
+                  {{item.title}}
+                </div>
+                <div class="info title" style="font-size: 24px">
+                  2021/20/19/18CC
+                </div>
+                <div class="info title">
+                  支持mac/win/m1
+                </div>
+                <img :src="item.src" alt=""/>
+                <div style="display: flex;align-items: center;justify-content: center">
+                  <div class="title">
+                    简单快捷
+                  </div>
+                  <div style="width: 40px">
 
-              </div>
-              <div class="title">
-                一键用久
+                  </div>
+                  <div class="title">
+                    一键用久
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div style="display: flex;justify-content: center">
-        <el-button @click="getPic" type="danger">生成图片</el-button>
-      </div>
+          <div style="display: flex;justify-content: center">
+            <el-button @click="getPic" type="danger">生成图片</el-button>
+          </div>
+        </el-tab-pane>
+        <el-tab-pane label="前端课程" name="3" style="text-align: center">
+        <span>
+          链接:https://pan.baidu.com/s/1XthmCwCKQz6JF32R_4bReA
+          提取码:ik8i 复制这段内容后打开百度网盘手机App，操作更方便哦
+        </span>
+          <div>
+            前端课程网址(复制到电脑浏览器打开)：https://tool.huashengriji.work/#/HtmlCssJs
+          </div>
+          <br>
+          <br>
+          <div>
+            WebHtml前端开发视频教程零基础全栈css3,vue,react,jquery,小程序
+          </div>
+          <br>
+          <div id="webVal" class="picContainer">
+            <div class="boxC"
+
+                 style="background-color: #40B883;
+               text-align: center">
+              <div class="cover"></div>
+              <div style="color:white;font-size: 30px;font-weight: bolder;padding-top: 10px">
+                web前端系统教程
+              </div>
+              <div style="color:white;font-size:20px;padding-top: 10px">
+                超新超全，独家资源，学完就就业
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 80px;font-size: 20px">
+                零基础从入门到精通
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 20px;font-size: 20px">
+                某途，某谷,机构课程，课件+视频+项目案例
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 20px;font-size: 20px">
+                html + css + js + jQuery + vue全家桶 + react全家桶 + node后台
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 20px;font-size: 20px">
+                全技术栈，由浅入深
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 20px;font-size: 20px">
+                超百G资源，持续更新
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('webVal')">生产图片</el-button>
+          <br>
+          <div id="webDetail" class="picContainer">
+            <div class="detail">
+              <div style="text-align: left;font-size: 25px;color:red">
+                购买前须知：
+              </div>
+              <div style="text-align: left;font-size: 22px;color:red">
+                本店24小时自动发货，收货请在聊天窗口接收链接。
+              </div>
+              <div style="text-align: left;font-size: 22px;color:red">
+                由于商品的特殊性，发货后不接受退款！拍前请考虑清楚
+              </div>
+              <div>
+                <img src="../assets/img/html/1.png" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('webDetail')">生产图片</el-button>
+          <br>
+          <br>
+          <div id="webDetail2" class="picContainer">
+            <div class="detail">
+              <div>
+                <img src="../assets/img/html/2.png" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('webDetail2')">生产图片</el-button>
+        </el-tab-pane>
+      </el-tabs>
 
     </div>
   </div>
@@ -441,7 +532,11 @@ export default {
           src: pdf,
         },
       ],
+      activeName: 'first',
     };
+  },
+  created() {
+    this.activeName = sessionStorage.getItem('tabName') || 'first';
   },
   mounted() {
     let text = '';
@@ -489,6 +584,23 @@ export default {
           console.error('oops, something went wrong!', error);
         });
     },
+    handleClick(val) {
+      sessionStorage.setItem('tabName', val.name);
+    },
+    getPicById(id) {
+      domtoimage.toPng(document.getElementById(id), { quality: 1 })
+        .then((dataUrl) => {
+          const a = document.createElement('a');
+          a.download = `xds${new Date().getTime()}`;// 这边是文件名，可以自定义
+          a.href = dataUrl;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        })
+        .catch((error) => {
+          console.error('oops, something went wrong!', error);
+        });
+    },
   },
 
 };
@@ -496,6 +608,10 @@ export default {
 
 <style scoped lang="stylus">
   .detailBox {
+    .container {
+      padding: 20px;
+    }
+
     .text-info {
       color: #31708f;
     }
@@ -678,7 +794,7 @@ export default {
       line-height: 50px;
       font-size: 30px;
       z-index: 1;
-      opacity: 0.5;
+      opacity: 0.2;
       overflow: hidden;
     }
 
@@ -697,5 +813,16 @@ export default {
       padding 20px
     }
 
+    .boxC {
+      overflow hidden
+      position relative;
+      width: 480px;
+      height: 480px;
+      display block;
+    }
+
+    .picContainer {
+      display: inline-block
+    }
   }
 </style>

@@ -42,6 +42,10 @@ const routes = [
     path: '/detail',
     name: 'detail',
     component: () => import('../views/detail.vue'),
+  }, {
+    path: '/HtmlCssJs',
+    name: 'HtmlCssJs',
+    component: () => import('../views/HtmlCssJs.vue'),
   },
 ];
 

@@ -9,7 +9,7 @@
       {{title}}
     </div>
     <el-tabs v-model="activeName" @tab-click="tabClick">
-      <el-tab-pane label="方法一：开启p2p加速（长期有效）" name="1"/>
+      <el-tab-pane label="方法一：开启p2p加速（长期有效)(仅限windows平台)" name="1"/>
     </el-tabs>
     <div class="g-infoBox">
       <div v-if="activeName==='1'">

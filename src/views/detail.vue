@@ -175,29 +175,50 @@
             <p class="text-danger">TB店铺名：达克越全球购</p>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="adobe" name="2">
-          <div class="mainDetail">
-            <div class="cover"></div>
-            <img class="pic" src="../assets/img/pddAdobe/1.jpg" alt="">
+        <el-tab-pane label="adobe" name="2" style="text-align: center">
+          <div id="adobeOne" style="display: inline-block">
+            <div class="mainDetail">
+              <div class="cover"></div>
+              <img class="pic" src="../assets/img/pddAdobe/1.jpg" alt="">
+              <div style="position: absolute;
+            left: 50%;transform: translateX(-50%);
+            top:45px;font-size: 40px;width: 100%;font-weight: bolder;
+            text-align: center;color: red">
+                买就送百度网盘加速工具
+              </div>
+            </div>
           </div>
+          <br>
+          <el-button @click="getPicById('adobeOne')">生产图片</el-button>
+          <br>
           <div class="mainDetail">
             <div class="cover"></div>
             <img class="pic" src="../assets/img/pddAdobe/2.jpg" alt="">
           </div>
+          <br>
           <div class="mainDetail">
             <div class="cover"></div>
             <img class="pic" src="../assets/img/pddAdobe/5.jpg" alt="">
           </div>
-          <div id="adobeDetail">
+          <div id="adobeDetail" style="display: inline-block">
             <div class="detail">
-              <h4>
-                <p class="bg-danger">每个单品，拍下就发送Win/Mac/M1三个平台的多种版本安装包，全部带走！</p>
-              </h4>
+              <div style="text-align: left;font-size: 30px;color:red">
+                win/mac/m1三个版本的应用，拍下一起发，全部带走
+              </div>
+              <br>
+              <div style="text-align: left;font-size: 30px;color:red">
+                买就送百度网盘加速工具，不再担心龟速
+              </div>
             </div>
             <div class="detail">
               <img class="pic" src="../assets/img/pddAdobe/6.jpg" alt="">
               <div class="cover"></div>
             </div>
+          </div>
+          <div style="display: flex;justify-content: center">
+            <el-button @click="getAdobeDetail" type="danger">打印adobeDetail</el-button>
+          </div>
+          <div id="adobeDetai2" style="display: inline-block">
             <div class="detail">
               <img class="pic" src="../assets/img/pddAdobe/8.jpg" alt="">
               <div class="cover"></div>
@@ -207,9 +228,9 @@
               <div class="cover"></div>
             </div>
           </div>
-          <div style="display: flex;justify-content: center">
-            <el-button @click="getAdobeDetail" type="danger">打印adobeDetail</el-button>
-          </div>
+          <br>
+          <el-button @click="getPicById('adobeDetai2')">生产图片</el-button>
+          <br>
           <div class="area" v-for="(item,index) in list" :key="index">
             <span class="g-red">{{item.title}}</span>
             下载地址:{{item.val}}
@@ -238,13 +259,13 @@
                  :data-title="item.title">
               <div class="four getPic">
                 <div class="cover"></div>
-                <div class="title">
+                <div class="title" style="font-size: 40px;padding-top: 10px">
                   {{item.title}}
                 </div>
-                <div class="info title" style="font-size: 24px">
+                <div class="info title" style="font-size: 30px">
                   2021/20/19/18CC
                 </div>
-                <div class="info title">
+                <div class="info title" style="font-size: 30px">
                   支持mac/win/m1
                 </div>
                 <img :src="item.src" alt=""/>
@@ -258,6 +279,9 @@
                   <div class="title">
                     一键用久
                   </div>
+                </div>
+                <div style="font-size: 50px;color: red;font-weight: bolder;padding-top: 20px">
+                  买就送百度网盘加速工具
                 </div>
               </div>
             </div>
@@ -282,35 +306,34 @@
           <br>
           <div id="webVal" class="picContainer">
             <div class="boxC"
-
                  style="background-color: #40B883;
                text-align: center">
               <div class="cover"></div>
-              <div style="color:white;font-size: 30px;font-weight: bolder;padding-top: 10px">
-                web前端系统教程
+              <div style="color:white;font-size: 40px;font-weight: bolder;padding-top: 10px">
+                web前端开发系统课程
               </div>
-              <div style="color:white;font-size:20px;padding-top: 10px">
+              <div style="color:white;font-size:30px;padding-top: 10px">
                 超新超全，独家资源，学完就就业
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
-            margin: 10px 80px;font-size: 20px">
+            margin: 10px 80px;font-size: 25px">
                 零基础从入门到精通
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
-            margin: 10px 20px;font-size: 20px">
-                某途，某谷,机构课程，课件+视频+项目案例
+            margin: 10px 10px;font-size: 25px">
+                开发工具+课件+视频+项目案例+源码
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
-            margin: 10px 20px;font-size: 20px">
+            margin: 10px 20px;font-size: 25px">
                 html + css + js + jQuery + vue全家桶 + react全家桶 + node后台
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
-            margin: 10px 20px;font-size: 20px">
-                全技术栈，由浅入深
+            margin: 10px 5px;font-size: 25px">
+                全技术栈，由浅入深,百G资源，持续更新
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
-            margin: 10px 20px;font-size: 20px">
-                超百G资源，持续更新
+            margin: 10px 20px;font-size: 25px">
+                高清视频+拒绝拼凑
               </div>
             </div>
           </div>
@@ -319,6 +342,12 @@
           <br>
           <div id="webDetail" class="picContainer">
             <div class="detail">
+              <div class="cover"></div>
+              <br>
+              <div style="text-align: left;font-size: 30px;color:red">
+                --拍下就送，百度网盘长期免费加速工具--
+              </div>
+              <br>
               <div style="text-align: left;font-size: 25px;color:red">
                 购买前须知：
               </div>
@@ -339,6 +368,7 @@
           <br>
           <div id="webDetail2" class="picContainer">
             <div class="detail">
+              <div class="cover"></div>
               <div>
                 <img src="../assets/img/html/2.png" alt="">
               </div>
@@ -346,6 +376,96 @@
           </div>
           <br>
           <el-button @click="getPicById('webDetail2')">生产图片</el-button>
+        </el-tab-pane>
+        <el-tab-pane label="python课程" name="4" style="text-align: center">
+          <span>
+          链接：https://pan.baidu.com/s/14rRkM-U3Y72FG2g9UQ_E3A
+          提取码：trjy
+          复制这段内容后打开百度网盘手机App，操作更方便哦
+          </span>
+          <br>
+          <div>
+            课程网址(复制到电脑浏览器打开)：https://tool.huashengriji.work/#/PythonClassesH
+          </div>
+          <br>
+          <br>
+          <div>
+            python开发培训课程零基础入门AI机器学习
+          </div>
+          <br>
+          <div id="pythonVal" class="picContainer">
+            <div class="boxC"
+                 style="background-color: #40B883;
+                 text-align: center">
+              <div class="cover"></div>
+              <div style="color:white;font-size: 40px;font-weight: bolder;padding-top: 10px">
+                python开发培训课程
+              </div>
+              <div style="color:white;font-size:30px;padding-top: 10px">
+                超新超全，独家资源，学完就就业
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 80px;font-size: 25px">
+                零基础从入门到精通
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 10px;font-size: 25px">
+                开发工具+课件+视频+项目案例+源码
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 20px;font-size: 30px">
+                网络爬虫 + 机器学习 + 深度学习 + web服务 + 数据挖掘 + AI
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 5px;font-size: 25px">
+                全技术栈，由浅入深,百G资源，持续更新
+              </div>
+              <div style="background-color: white;border-radius: 5px;padding: 10px;
+            margin: 10px 20px;font-size: 25px">
+                高清视频+拒绝拼凑
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('pythonVal')">生产图片</el-button>
+          <br>
+          <div id="pythonDetail" class="picContainer">
+            <div class="detail">
+              <div class="cover"></div>
+              <br>
+              <div style="text-align: left;font-size: 30px;color:red">
+                --拍下就送，百度网盘长期免费加速工具--
+              </div>
+              <br>
+              <div style="text-align: left;font-size: 30px;color:red">
+                购买前须知：
+              </div>
+              <div style="text-align: left;font-size: 25px;color:red">
+                本店24小时自动发货，收货请在聊天窗口接收链接。
+              </div>
+              <div style="text-align: left;font-size: 25px;color:red">
+                由于商品的特殊性，发货后不接受退款！
+              </div>
+              <br>
+              <div>
+                <img src="../assets/img/python/1.png" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('pythonDetail')">生产图片</el-button>
+          <br>
+          <div id="pythonDetail2" class="picContainer">
+            <div class="detail">
+              <div class="cover"></div>
+              <div>
+                <img src="../assets/img/python/2.png" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('pythonDetail2')">生产图片</el-button>
+          <br>
         </el-tab-pane>
       </el-tabs>
 
@@ -667,9 +787,9 @@ export default {
     }
 
     .mainDetail {
-      width: 300px;
-      height: 300px;
-      margin: 0 auto 20px auto;
+      display block
+      width: 480px;
+      height: 480px;
       box-sizing: border-box;
       border: 1px solid #e0e0e0;
       background-size: 300px 100px;
@@ -822,7 +942,13 @@ export default {
     }
 
     .picContainer {
-      display: inline-block
+      display: inline-block;
+      position relative
+      overflow hidden
+
+      img {
+        width 100%
+      }
     }
   }
 </style>

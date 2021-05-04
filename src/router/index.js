@@ -46,6 +46,14 @@ const routes = [
     path: '/HtmlCssJs',
     name: 'HtmlCssJs',
     component: () => import('../views/HtmlCssJs.vue'),
+  }, {
+    path: '/PythonClassesH',
+    name: 'PythonClassesH',
+    component: () => import('../views/PythonClassesH.vue'),
+  }, {
+    path: '/BaiDuYun',
+    name: 'BaiDuYun',
+    component: () => import('../views/BaiDuYun.vue'),
   },
 ];
 

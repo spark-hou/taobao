@@ -37,6 +37,10 @@ export default {
           text: '开启win10更新',
           router: 'EnableUpdate',
         },
+        {
+          text: '百度云加速教程',
+          router: 'BaiDuYun',
+        },
       ],
     };
   },

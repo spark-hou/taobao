@@ -200,16 +200,47 @@
             <div class="cover"></div>
             <img class="pic" src="../assets/img/pddAdobe/5.jpg" alt="">
           </div>
-          <div id="adobeDetail" style="display: inline-block">
-            <div class="detail">
-              <div style="text-align: left;font-size: 30px;color:red">
-                win/mac/m1三个版本的应用，拍下一起发，全部带走
+          <br>
+          <div id="adobeDetail1" class="picContainer">
+            <div class="width7">
+              <div class="cover"></div>
+              <br>
+              <div style="text-align: left;font-size: 25px;color:red">
+                win/mac/m1三个版本，拍下一起发，全部带走
+              </div>
+              <br>
+              <div style="text-align: left;font-size: 35px;color:red">
+                注意⚠️：
+              </div>
+              <div style="text-align: left;font-size: 25px;color:black">
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
               </div>
               <br>
               <div style="text-align: left;font-size: 30px;color:red">
-                买就送百度网盘加速工具，不再担心龟速
+                --拍下就送，百度网盘长期免费加速教程--
+              </div>
+              <br>
+              <div style="text-align: left;font-size: 25px;color:red">
+                购买前须知：
+              </div>
+              <div style="text-align: left;font-size: 22px;color:red">
+                本店24小时自动发货，收货请在聊天窗口接收链接。
+              </div>
+              <br>
+              <div style="text-align: left;font-size: 22px;color:gray">
+                本店出售的是技术支持，其他辅助资源均为网络资源
               </div>
             </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('adobeDetail1')">生产图片</el-button>
+          <br>
+          <div id="adobeDetail" style="display: inline-block">
             <div class="detail">
               <img class="pic" src="../assets/img/pddAdobe/6.jpg" alt="">
               <div class="cover"></div>
@@ -301,7 +332,7 @@
           <br>
           <br>
           <div>
-            WebHtml前端开发视频教程零基础全栈css3,vue,react,jquery,小程序
+            WebHtml前端开发视频教程零基础全栈项目课程vue/react
           </div>
           <br>
           <div id="webVal" class="picContainer">
@@ -329,7 +360,7 @@
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
             margin: 10px 5px;font-size: 25px">
-                全技术栈，由浅入深,百G资源，持续更新
+                全技术栈,由浅入深,百G资源,持续更新
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
             margin: 10px 20px;font-size: 25px">
@@ -340,12 +371,94 @@
           <br>
           <el-button @click="getPicById('webVal')">生产图片</el-button>
           <br>
+          <br>
+          <div id="webVal2" class="picContainer">
+            <div class="boxC"
+                 style="background-color: #40B883;
+               text-align: center">
+              <div class="cover"></div>
+              <div style="display: block;
+              position: absolute;
+              width: 100%;height: 40px;
+              background-color: #22B57E"></div>
+              <div style="display: block;
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+              height: 60px;
+              font-size: 40px;
+              font-weight: bolder;
+              color:white;
+              background-color: #22B57E">
+                买就送百度网盘加速教程
+              </div>
+
+              <div style="display: block;
+              position: absolute;
+              width: 450px;
+              height: 60px;
+              top:150px;
+              left: 10px;
+              font-size: 40px;
+              font-weight: bolder;
+              padding-left: 5px;
+              text-align: center;
+              color:black;
+              background-color: white">
+                2021前端开发培训课程
+              </div>
+              <div style="display: block;
+              position: absolute;
+              width: 390px;
+              height: 40px;
+              top:337px;
+              left: 70px;
+              font-size: 28px;
+              text-align: left;
+              font-weight: bolder;
+              padding-left: 5px;
+              color:black;
+              background-color: #22B57E">
+                完整课件/项目源码/面试题库
+              </div>
+              <div style="display: block;
+              position: absolute;
+              width: 390px;
+              height: 40px;
+              top:373px;
+              left: 70px;
+              font-size: 28px;
+              text-align: left;
+              font-weight: bolder;
+              padding-left: 5px;
+              color:black;
+              background-color: #22B57E">
+                持续免费更新
+              </div>
+              <img src="../assets/img/html/one.jpg" alt=""/>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('webVal2')">生产图片</el-button>
+          <br>
           <div id="webDetail" class="picContainer">
-            <div class="detail">
+            <div class="width7">
               <div class="cover"></div>
               <br>
+              <div style="text-align: left;font-size: 35px;color:red">
+                注意⚠️：
+              </div>
+              <div style="text-align: left;font-size: 25px;color:black">
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
+              </div>
+              <br>
               <div style="text-align: left;font-size: 30px;color:red">
-                --拍下就送，百度网盘长期免费加速工具--
+                --拍下就送，百度网盘长期免费加速教程--
               </div>
               <br>
               <div style="text-align: left;font-size: 25px;color:red">
@@ -357,17 +470,40 @@
               <div style="text-align: left;font-size: 22px;color:red">
                 由于商品的特殊性，发货后不接受退款！拍前请考虑清楚
               </div>
-              <div>
-                <img src="../assets/img/html/1.png" alt="">
-              </div>
             </div>
           </div>
           <br>
           <el-button @click="getPicById('webDetail')">生产图片</el-button>
           <br>
           <br>
+          <div id="webDetail4" class="picContainer">
+            <div class="width7">
+              <div class="cover"></div>
+              <br>
+              <div>
+                <img src="../assets/img/html/detailOne.jpg" alt=""/>
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('webDetail4')">生产图片</el-button>
+          <br>
+          <br>
+          <div id="webDetail3" class="picContainer">
+            <div class="width7">
+              <div class="cover"></div>
+              <br>
+              <div>
+                <img src="../assets/img/html/1.png" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('webDetail3')">生产图片</el-button>
+          <br>
+          <br>
           <div id="webDetail2" class="picContainer">
-            <div class="detail">
+            <div class="width7">
               <div class="cover"></div>
               <div>
                 <img src="../assets/img/html/2.png" alt="">
@@ -418,7 +554,7 @@
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
             margin: 10px 5px;font-size: 25px">
-                全技术栈，由浅入深,百G资源，持续更新
+                全技术栈,由浅入深,百G资源,持续更新
               </div>
               <div style="background-color: white;border-radius: 5px;padding: 10px;
             margin: 10px 20px;font-size: 25px">
@@ -429,23 +565,107 @@
           <br>
           <el-button @click="getPicById('pythonVal')">生产图片</el-button>
           <br>
-          <div id="pythonDetail" class="picContainer">
-            <div class="detail">
+          <br>
+          <div id="pythonVal2" class="picContainer">
+            <div class="boxC"
+                 style="background-color: #40B883;
+               text-align: center">
+              <div class="cover"></div>
+              <div style="display: block;
+              position: absolute;
+              width: 450px;
+              height: 60px;
+              top:110px;
+              left: 10px;
+              font-size: 40px;
+              font-weight: bolder;
+              padding-left: 5px;
+              text-align: center;
+              color:black;
+              background-color: white">
+                2021新版全套视频课程
+              </div>
+              <div style="display: block;
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+              height: 80px;
+              font-size: 40px;
+              font-weight: bolder;
+              color:white;
+              background-color: #428CA6">
+                买就送百度网盘加速教程
+              </div>
+              <img src="../assets/img/python/one.jpg" alt=""/>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('pythonVal2')">生产图片</el-button>
+          <br>
+          <br>
+          <div id="pythonDetail4" class="picContainer">
+            <div class="width7">
               <div class="cover"></div>
               <br>
-              <div style="text-align: left;font-size: 30px;color:red">
-                --拍下就送，百度网盘长期免费加速工具--
+              <div style="text-align: left;font-size: 35px;color:red">
+                注意⚠️：
+              </div>
+              <div style="text-align: left;font-size: 25px;color:black">
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
+                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
+                <br>
               </div>
               <br>
               <div style="text-align: left;font-size: 30px;color:red">
+                --拍下就送，百度网盘长期免费加速教程--
+              </div>
+              <br>
+              <div style="text-align: left;font-size: 25px;color:red">
                 购买前须知：
               </div>
-              <div style="text-align: left;font-size: 25px;color:red">
+              <div style="text-align: left;font-size: 22px;color:red">
                 本店24小时自动发货，收货请在聊天窗口接收链接。
               </div>
-              <div style="text-align: left;font-size: 25px;color:red">
-                由于商品的特殊性，发货后不接受退款！
+              <div style="text-align: left;font-size: 22px;color:red">
+                由于商品的特殊性，发货后不接受退款！拍前请考虑清楚
               </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('pythonDetail4')">生产图片</el-button>
+          <br>
+          <div id="pythonDetail5" class="picContainer">
+            <div class="width7">
+              <div class="cover"></div>
+              <br>
+              <div>
+                <img src="../assets/img/python/dOne.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('pythonDetail5')">生产图片</el-button>
+          <br>
+          <br>
+          <div id="pythonDetail6" class="picContainer">
+            <div class="width7">
+              <div class="cover"></div>
+              <br>
+              <div>
+                <img src="../assets/img/python/dTwo.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('pythonDetail6')">生产图片</el-button>
+          <br>
+          <br>
+          <div id="pythonDetail" class="picContainer">
+            <div class="width7">
+              <div class="cover"></div>
               <br>
               <div>
                 <img src="../assets/img/python/1.png" alt="">
@@ -456,7 +676,7 @@
           <el-button @click="getPicById('pythonDetail')">生产图片</el-button>
           <br>
           <div id="pythonDetail2" class="picContainer">
-            <div class="detail">
+            <div class="width7">
               <div class="cover"></div>
               <div>
                 <img src="../assets/img/python/2.png" alt="">
@@ -913,7 +1133,7 @@ export default {
       word-spacing: 30px;
       line-height: 50px;
       font-size: 30px;
-      z-index: 1;
+      z-index: 10000;
       opacity: 0.2;
       overflow: hidden;
     }
@@ -949,6 +1169,16 @@ export default {
       img {
         width 100%
       }
+    }
+
+    .width7 {
+      width: 700px;
+      display: block;
+      margin: 0 auto 20px auto;
+      box-sizing: border-box;
+      padding: 0px;
+      position: relative;
+      overflow: hidden;
     }
   }
 </style>

@@ -332,7 +332,7 @@
           <br>
           <br>
           <div>
-            WebHtml前端开发视频教程零基础全栈项目课程vue/react
+            web前端开发编程零基础从入门到精通视频课程自学教程vue/react
           </div>
           <br>
           <div id="webVal" class="picContainer">
@@ -526,7 +526,7 @@
           <br>
           <br>
           <div>
-            python开发培训课程零基础入门AI机器学习
+            python开发编程零基础从入门到精通培训课程自学视频培AI机器学习
           </div>
           <br>
           <div id="pythonVal" class="picContainer">
@@ -686,6 +686,9 @@
           <br>
           <el-button @click="getPicById('pythonDetail2')">生产图片</el-button>
           <br>
+        </el-tab-pane>
+        <el-tab-pane label="scratch" name="5" style="text-align: center">
+
         </el-tab-pane>
       </el-tabs>
 

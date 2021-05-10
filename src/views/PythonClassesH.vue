@@ -15,9 +15,9 @@
       <div v-if="activeName==='1'">
         <div>视频课件下载地址：
           <a style="color:blue" target="_blank" href="https://pan.baidu.com/s/14rRkM-U3Y72FG2g9UQ_E3A">
-            链接:点击跳转</a>
+            https://pan.baidu.com/s/14rRkM-U3Y72FG2g9UQ_E3A</a>
         </div>
-        <div>提取码:trjy</div>
+        <div>提取码:<span style="color: red">trjy</span></div>
         <el-divider></el-divider>
         开发工具下载地址：<a style="color:blue" target="_blank"
                     href="https://www.jetbrains.com/pycharm/download/#section=windows">点击跳转</a>

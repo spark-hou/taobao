@@ -15,7 +15,7 @@
       <div v-if="activeName==='1'">
         <div>视频课件下载地址：<a style="color:blue" target="_blank" href="https://pan.baidu.com/s/1XthmCwCKQz6JF32R_4bReA">链接:https://pan.baidu.com/s/1XthmCwCKQz6JF32R_4bReA</a>
         </div>
-        <div>提取码:ik8i</div>
+        <div>提取码:<span style="color: red">ik8i</span></div>
         <el-divider></el-divider>
         开发工具下载地址：<a style="color:blue" target="_blank"
                     href="https://www.jetbrains.com/webstorm/download/#section=windows">点击跳转</a>

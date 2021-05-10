@@ -516,7 +516,7 @@
         <el-tab-pane label="python课程" name="4" style="text-align: center">
           <span>
           链接：https://pan.baidu.com/s/14rRkM-U3Y72FG2g9UQ_E3A
-          提取码：trjy
+          提取码：<span style="color: red">trjy</span>
           复制这段内容后打开百度网盘手机App，操作更方便哦
           </span>
           <br>

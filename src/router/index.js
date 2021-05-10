@@ -54,6 +54,10 @@ const routes = [
     path: '/BaiDuYun',
     name: 'BaiDuYun',
     component: () => import('../views/BaiDuYun.vue'),
+  }, {
+    path: '/ScratchClassesY',
+    name: 'ScratchClassesY',
+    component: () => import('../views/ScratchClassesY.vue'),
   },
 ];
 

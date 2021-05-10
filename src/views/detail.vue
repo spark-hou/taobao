@@ -688,7 +688,160 @@
           <br>
         </el-tab-pane>
         <el-tab-pane label="scratch" name="5" style="text-align: center">
-
+          <span>
+            链接：https://pan.baidu.com/s/1R7HLiYdk_CmS8gBk7IAFzw
+           提取码：r4cw
+          </span>
+          <br>
+          <br>
+          <div>
+            scratch课程网址(复制到电脑浏览器打开)：https://tool.huashengriji.work/#/ScratchClassesY
+          </div>
+          <br>
+          <div>
+            scratch少儿趣味编程零基础从入门到精通视频课程带课件/软件
+          </div>
+          <br>
+          <br>
+          <div id="scratchMain" class="picContainer">
+            <div class="boxC"
+                 style="background-color: #40B883;
+               text-align: center">
+              <div class="cover"></div>
+              <div style="display: block;
+              position: absolute;
+              width: 100%;height: 40px;
+              background-color: #22B57E"></div>
+              <div style="display: block;
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+              height: 60px;
+              font-size: 40px;
+              font-weight: bolder;
+              color:white;
+              background-color: #22B57E">
+                买就送百度网盘加速教程
+              </div>
+              <div style="display: block;
+              position: absolute;
+              width: 456px;
+              height: 100px;
+              top:63px;
+              left: 10px;
+              font-size: 56px;
+              font-weight: 800;
+              padding-left: 5px;
+              text-align: center;
+              color:#1AB97B;
+              background-color: white">
+                Scratch3.0
+              </div>
+              <div style="display: block;
+              position: absolute;
+              width: 450px;
+              height: 60px;
+              top:150px;
+              left: 10px;
+              font-size: 34px;
+              font-weight: bolder;
+              padding-left: 5px;
+              text-align: center;
+              color:black;
+              background-color: white">
+                少儿趣味编程全套视频自学版
+              </div>
+              <div style="display: block;
+              position: absolute;
+              width: 350px;
+              height: 50px;
+              line-height: 50px;
+              top: 235px;
+              left: 50%;
+              border-radius: 50px;
+              transform: translateX(-50%);
+              font-size: 30px;
+              font-weight: 800;
+              padding-left: 5px;
+              text-align: center;
+              color:#1AB97B;
+              background-color: white">
+                零基础入门到精通课程
+              </div>
+              <div style="display: block;
+              position: absolute;
+              width: 390px;
+              height: 40px;
+              top:300px;
+              left: 70px;
+              font-size: 28px;
+              text-align: left;
+              font-weight: bolder;
+              padding-left: 5px;
+              color:black;
+              background-color: #22B57E">
+                初级+中级+高级(进阶课程)
+              </div>
+              <div style="display: block;
+              position: absolute;
+              width: 390px;
+              height: 40px;
+              top:337px;
+              left: 70px;
+              font-size: 28px;
+              text-align: left;
+              font-weight: bolder;
+              padding-left: 5px;
+              color:black;
+              background-color: #22B57E">
+                教学素材+教师用课件
+              </div>
+              <div style="display: block;
+              position: absolute;
+              width: 390px;
+              height: 40px;
+              top:373px;
+              left: 70px;
+              font-size: 28px;
+              text-align: left;
+              font-weight: bolder;
+              padding-left: 5px;
+              color:black;
+              background-color: #22B57E">
+                持续免费更新
+              </div>
+              <img src="../assets/img/html/one.jpg" alt=""/>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('scratchMain')">生产图片</el-button>
+          <br>
+          <br>
+          <div id="scratchDetail1" class="picContainer">
+            <div class="width7">
+              <div class="cover"></div>
+              <br>
+              <div>
+                <img src="../assets/img/scratch/1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('scratchDetail1')">生产图片</el-button>
+          <br>
+          <br>
+          <div id="scratchDetail2" class="picContainer">
+            <div class="width7">
+              <div class="cover"></div>
+              <br>
+              <div>
+                <img src="../assets/img/scratch/2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <el-button @click="getPicById('scratchDetail2')">生产图片</el-button>
+          <br>
         </el-tab-pane>
       </el-tabs>
 

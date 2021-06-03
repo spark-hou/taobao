@@ -184,7 +184,7 @@
             left: 50%;transform: translateX(-50%);
             top:45px;font-size: 40px;width: 100%;font-weight: bolder;
             text-align: center;color: red">
-                买就送百度网盘加速工具
+                双网盘资源不限速下载
               </div>
             </div>
           </div>
@@ -206,23 +206,23 @@
               <div class="cover"></div>
               <br>
               <div style="text-align: left;font-size: 25px;color:red">
-                win/mac/m1三个版本，拍下一起发，全部带走
+                每种版本的M1平台，Mac平台，windows平台的安装包都会一起发送
               </div>
               <br>
               <div style="text-align: left;font-size: 35px;color:red">
                 注意⚠️：
               </div>
+              <br>
               <div style="text-align: left;font-size: 25px;color:black">
-                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
-                <br>
-                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
-                <br>
-                本店使用百度网盘发货，不会用百度网盘的，请勿拍！！！！
-                <br>
+                本店使用网盘发货，不会用网盘的，请勿拍！！！！
               </div>
               <br>
               <div style="text-align: left;font-size: 30px;color:red">
                 --拍下就送，百度网盘长期免费加速教程--
+              </div>
+              <br>
+              <div style="text-align: left;font-size: 30px;color:red">
+                天翼盘+百度盘，双节点资源，告别龟速下载
               </div>
               <br>
               <div style="text-align: left;font-size: 25px;color:red">

@@ -264,7 +264,12 @@
           <br>
           <div class="area" v-for="(item,index) in list" :key="index">
             <span class="g-red">{{item.title}}</span>
-            下载地址:{{item.val}}
+            <br>
+            百度盘{{item.val}}
+            <br>
+            ------------------------------------------
+            <br>
+            天翼盘链接：{{item.ty}}
             <br>
             ------------------------------------------
             <br>
@@ -876,105 +881,105 @@ export default {
       list: [
         {
           title: 'AcrobatReader(pdf)',
-          val: `链接：https://pan.baidu.com/s/1cazPOkZ9nXohuDb8A3b7pQ
-提取码：ju3i
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: '链接：https://pan.baidu.com/s/1ydMQaIYMipPb3BYSQXBwKQ 提取码：wh4w',
+          ty: 'https://cloud.189.cn/t/QVvauuryem63 (访问码:whi5)',
         },
         {
           title: 'AfterEffects(AE)',
-          val: `链接：https://pan.baidu.com/s/1RvKcJnNY5FTe1I7tc-bqsA
-提取码：yi96
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1aXXe4Rs3UP0iwD84dWMEww
+提取码：oxyv`,
+          ty: `https://cloud.189.cn/t/j6fIzemMzEjm
+          (访问码:qi3p)`,
         },
         {
           title: 'Animate(AN)',
-          val: `链接：https://pan.baidu.com/s/1wTZ1iOpx1hs3wju7nnHa9Q
-提取码：gu60
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1riucP1QCq3WTQiCwhDBbfQ
+提取码：whdv`,
+          ty: 'https://cloud.189.cn/t/f2YnEnAZzqyu (访问码:npc8)',
         },
         {
           title: 'Audition(AU)',
-          val: `链接：https://pan.baidu.com/s/14FHtRHFg-u0VlrvUTbkevg
-提取码：opef
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1k04Z3zWR57vFj9vgT5wn0A
+提取码：65g3`,
+          ty: 'https://cloud.189.cn/t/nYRNVfrQBram (访问码:dws8)',
         },
         {
           title: 'Bridge(BR)',
-          val: `链接：https://pan.baidu.com/s/1v_OgxyNtPRvfMtsrGggW5Q
-提取码：knil
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1If4BBNygNjo_DHvcKVqxgA
+提取码：gk2e`,
+          ty: 'https://cloud.189.cn/t/iyaM7nqmaMru (访问码:c0ki)',
         },
         {
           title: 'Character(CH)',
-          val: '链接：https://pan.baidu.com/s/1Yr7z61CL-BBUxjeOYoA0aw \n'
-              + '提取码：837g \n'
-              + '复制这段内容后打开百度网盘手机App，操作更方便哦',
+          val: `链接：https://pan.baidu.com/s/1HH7-oKcTiskWC0vVrkvCyg
+提取码：k1ir`,
+          ty: 'https://cloud.189.cn/t/3mmARjau6vIn (访问码:5jfy)',
         },
         {
           title: 'Dimension(DN)',
-          val: '链接：https://pan.baidu.com/s/1teerw3QYBxWCwC53Ne_rFA \n'
-              + '提取码：bvhy \n'
-              + '复制这段内容后打开百度网盘手机App，操作更方便哦',
+          val: `链接：https://pan.baidu.com/s/1A75RAUGeb7tGAHLCDXWC5w
+提取码：qumg `,
+          ty: 'https://cloud.189.cn/t/3QFjQjaiQ3um (访问码:417v)',
         },
         {
           title: 'Dreamweaver(DW)',
-          val: `链接：https://pan.baidu.com/s/1iCMU9FCpyCP-9w9y4btA_A
-          提取码：8inp
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1v6mOTqHZJJzA2PBhsTC0Vg
+提取码：c4m9 `,
+          ty: 'https://cloud.189.cn/t/ayAjA3MRbeMz (访问码:azq5)',
         },
         {
           title: 'Illustrator(AI)',
-          val: `链接：https://pan.baidu.com/s/1zZStyhEkp0KQo372DERn0Q
-提取码：ydk7
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1o2Iez2XFZPlukwyTLl9bdg
+提取码：sirn`,
+          ty: 'https://cloud.189.cn/t/baiae2ABfeUj (访问码:4yqt)',
         },
         {
           title: 'InCopy(IC)',
-          val: `链接：https://pan.baidu.com/s/1dkdqyrIqnHcqB_UbdFOhLg
-提取码：yax3
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1sEv0hmXeH-Fhm3kLs51TWg
+提取码：xnnd `,
+          ty: 'https://cloud.189.cn/t/BJju2yF3aUna (访问码:6zez)',
         },
         {
           title: 'InDesign(ID)',
-          val: `链接：https://pan.baidu.com/s/1TpncIA9G_pf7MIHOUtDNfQ
-提取码：60td
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1v9Uq6znQ4PCCf89k9c0CVA
+提取码：5xqi `,
+          ty: '',
         },
         {
           title: 'Lightroom(LR)',
-          val: `链接：https://pan.baidu.com/s/1AX4I3Xmvaq-w71CPSwXsBg
-提取码：al6v
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1Gd1gmaBbOi2-AtWkMM9ayw
+提取码：pfp0`,
+          ty: '',
         },
         {
           title: 'MediaEncoder(ME)',
-          val: `链接：https://pan.baidu.com/s/14e-IfKQGybICwo8HBukCZQ
-提取码：97n6
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/181zzMDrNaNvLSQ-mzYUljw
+提取码：locf`,
+          ty: '',
         },
         {
           title: 'Photoshop(PS)',
-          val: `链接：https://pan.baidu.com/s/19n9A7b6hvxjmmrEPIyFbhA
-提取码：gis8
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/13D6K5SH1rX_fuheTcgi_8A
+提取码：c4rk`,
+          ty: '',
         },
         {
           title: 'Prelude(PL)',
-          val: `链接：https://pan.baidu.com/s/13I7LpLFuzwhLvfDEnrFEHw
-提取码：anib
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1MuVzvSCntN9uezvV56Pcng
+提取码：lpau`,
+          ty: '',
         },
         {
           title: 'PremierePro(PR)',
-          val: `链接：https://pan.baidu.com/s/13rFoktP0f3TOkqi4VJBSLg
-提取码：8dxx
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1qWpjo-014u_2LbtWqF56Hg
+提取码：m9nw`,
+          ty: '',
         },
         {
           title: '全家桶',
-          val: `链接：https://pan.baidu.com/s/1qnQMei-mGOlNdZEys7tpCA
-提取码：tqa2
-复制这段内容后打开百度网盘手机App，操作更方便哦`,
+          val: `链接：https://pan.baidu.com/s/1Ykq4wUmBLdhgD_kgx1SsTQ
+提取码：qwuz`,
+          ty: '',
         },
       ],
       list2: [

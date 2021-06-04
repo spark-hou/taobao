@@ -882,104 +882,103 @@ export default {
         {
           title: 'AcrobatReader(pdf)',
           val: '链接：https://pan.baidu.com/s/1ydMQaIYMipPb3BYSQXBwKQ 提取码：wh4w',
-          ty: 'https://cloud.189.cn/t/QVvauuryem63 (访问码:whi5)',
+          ty: 'https://cloud.189.cn/t/INnA7fMBr6Zf',
         },
         {
           title: 'AfterEffects(AE)',
           val: `链接：https://pan.baidu.com/s/1aXXe4Rs3UP0iwD84dWMEww
 提取码：oxyv`,
-          ty: `https://cloud.189.cn/t/j6fIzemMzEjm
-          (访问码:qi3p)`,
+          ty: 'https://cloud.189.cn/t/iyqAF3f6JJze',
         },
         {
           title: 'Animate(AN)',
           val: `链接：https://pan.baidu.com/s/1riucP1QCq3WTQiCwhDBbfQ
 提取码：whdv`,
-          ty: 'https://cloud.189.cn/t/f2YnEnAZzqyu (访问码:npc8)',
+          ty: 'https://cloud.189.cn/t/feumiqjqARR3',
         },
         {
           title: 'Audition(AU)',
           val: `链接：https://pan.baidu.com/s/1k04Z3zWR57vFj9vgT5wn0A
 提取码：65g3`,
-          ty: 'https://cloud.189.cn/t/nYRNVfrQBram (访问码:dws8)',
+          ty: 'https://cloud.189.cn/t/rmYFNjfIBRBv',
         },
         {
           title: 'Bridge(BR)',
           val: `链接：https://pan.baidu.com/s/1If4BBNygNjo_DHvcKVqxgA
 提取码：gk2e`,
-          ty: 'https://cloud.189.cn/t/iyaM7nqmaMru (访问码:c0ki)',
+          ty: 'https://cloud.189.cn/t/f2YFfenmuym2',
         },
         {
           title: 'Character(CH)',
           val: `链接：https://pan.baidu.com/s/1HH7-oKcTiskWC0vVrkvCyg
 提取码：k1ir`,
-          ty: 'https://cloud.189.cn/t/3mmARjau6vIn (访问码:5jfy)',
+          ty: 'https://cloud.189.cn/t/f2YFfenmuym2',
         },
         {
           title: 'Dimension(DN)',
           val: `链接：https://pan.baidu.com/s/1A75RAUGeb7tGAHLCDXWC5w
 提取码：qumg `,
-          ty: 'https://cloud.189.cn/t/3QFjQjaiQ3um (访问码:417v)',
+          ty: 'https://cloud.189.cn/t/f2YFfenmuym2',
         },
         {
           title: 'Dreamweaver(DW)',
           val: `链接：https://pan.baidu.com/s/1v6mOTqHZJJzA2PBhsTC0Vg
 提取码：c4m9 `,
-          ty: 'https://cloud.189.cn/t/ayAjA3MRbeMz (访问码:azq5)',
+          ty: 'https://cloud.189.cn/t/f2YFfenmuym2',
         },
         {
           title: 'Illustrator(AI)',
           val: `链接：https://pan.baidu.com/s/1o2Iez2XFZPlukwyTLl9bdg
 提取码：sirn`,
-          ty: 'https://cloud.189.cn/t/baiae2ABfeUj (访问码:4yqt)',
+          ty: 'https://cloud.189.cn/t/jQVZVzYviIna',
         },
         {
           title: 'InCopy(IC)',
           val: `链接：https://pan.baidu.com/s/1sEv0hmXeH-Fhm3kLs51TWg
 提取码：xnnd `,
-          ty: 'https://cloud.189.cn/t/BJju2yF3aUna (访问码:6zez)',
+          ty: 'https://cloud.189.cn/t/jQVZVzYviIna',
         },
         {
           title: 'InDesign(ID)',
           val: `链接：https://pan.baidu.com/s/1v9Uq6znQ4PCCf89k9c0CVA
 提取码：5xqi `,
-          ty: '',
+          ty: 'https://cloud.189.cn/t/aUjYnijUFnua',
         },
         {
           title: 'Lightroom(LR)',
           val: `链接：https://pan.baidu.com/s/1Gd1gmaBbOi2-AtWkMM9ayw
 提取码：pfp0`,
-          ty: '',
+          ty: 'https://cloud.189.cn/t/773aMzJNz2Ij',
         },
         {
           title: 'MediaEncoder(ME)',
           val: `链接：https://pan.baidu.com/s/181zzMDrNaNvLSQ-mzYUljw
 提取码：locf`,
-          ty: '',
+          ty: 'https://cloud.189.cn/t/773aMzJNz2Ij',
         },
         {
           title: 'Photoshop(PS)',
           val: `链接：https://pan.baidu.com/s/13D6K5SH1rX_fuheTcgi_8A
 提取码：c4rk`,
-          ty: '',
+          ty: 'https://cloud.189.cn/t/qiI7FfEreQFz',
         },
         {
           title: 'Prelude(PL)',
           val: `链接：https://pan.baidu.com/s/1MuVzvSCntN9uezvV56Pcng
 提取码：lpau`,
-          ty: '',
+          ty: 'https://cloud.189.cn/t/qiI7FfEreQFz',
         },
         {
           title: 'PremierePro(PR)',
           val: `链接：https://pan.baidu.com/s/1qWpjo-014u_2LbtWqF56Hg
 提取码：m9nw`,
-          ty: '',
+          ty: 'https://cloud.189.cn/t/qiI7FfEreQFz',
         },
         {
           title: '全家桶',
           val: `链接：https://pan.baidu.com/s/1Ykq4wUmBLdhgD_kgx1SsTQ
 提取码：qwuz`,
-          ty: '',
+          ty: 'https://cloud.189.cn/t/6zEzY3b6ZZz2',
         },
       ],
       list2: [

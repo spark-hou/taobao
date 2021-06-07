@@ -906,19 +906,19 @@ export default {
           title: 'Bridge(BR)',
           val: `链接：https://pan.baidu.com/s/1If4BBNygNjo_DHvcKVqxgA
 提取码：gk2e`,
-          ty: 'https://cloud.189.cn/t/f2YFfenmuym2',
+          ty: 'https://cloud.189.cn/t/B7N7venmMFVj',
         },
         {
           title: 'Character(CH)',
           val: `链接：https://pan.baidu.com/s/1HH7-oKcTiskWC0vVrkvCyg
 提取码：k1ir`,
-          ty: 'https://cloud.189.cn/t/f2YFfenmuym2',
+          ty: 'https://cloud.189.cn/t/B7N7venmMFVj',
         },
         {
           title: 'Dimension(DN)',
           val: `链接：https://pan.baidu.com/s/1A75RAUGeb7tGAHLCDXWC5w
 提取码：qumg `,
-          ty: 'https://cloud.189.cn/t/f2YFfenmuym2',
+          ty: 'https://cloud.189.cn/t/u2MJzyFNRjQz',
         },
         {
           title: 'Dreamweaver(DW)',
@@ -930,7 +930,7 @@ export default {
           title: 'Illustrator(AI)',
           val: `链接：https://pan.baidu.com/s/1o2Iez2XFZPlukwyTLl9bdg
 提取码：sirn`,
-          ty: 'https://cloud.189.cn/t/jQVZVzYviIna',
+          ty: 'https://cloud.189.cn/t/nyUBfqziQvAn',
         },
         {
           title: 'InCopy(IC)',
@@ -948,7 +948,7 @@ export default {
           title: 'Lightroom(LR)',
           val: `链接：https://pan.baidu.com/s/1Gd1gmaBbOi2-AtWkMM9ayw
 提取码：pfp0`,
-          ty: 'https://cloud.189.cn/t/773aMzJNz2Ij',
+          ty: 'https://cloud.189.cn/t/vANJ7zANB3um',
         },
         {
           title: 'MediaEncoder(ME)',
@@ -960,19 +960,19 @@ export default {
           title: 'Photoshop(PS)',
           val: `链接：https://pan.baidu.com/s/13D6K5SH1rX_fuheTcgi_8A
 提取码：c4rk`,
-          ty: 'https://cloud.189.cn/t/qiI7FfEreQFz',
+          ty: 'https://cloud.189.cn/t/BjIbaaVb2E7b',
         },
         {
           title: 'Prelude(PL)',
           val: `链接：https://pan.baidu.com/s/1MuVzvSCntN9uezvV56Pcng
 提取码：lpau`,
-          ty: 'https://cloud.189.cn/t/qiI7FfEreQFz',
+          ty: 'https://cloud.189.cn/t/Ariai2jIRFfm',
         },
         {
           title: 'PremierePro(PR)',
           val: `链接：https://pan.baidu.com/s/1qWpjo-014u_2LbtWqF56Hg
 提取码：m9nw`,
-          ty: 'https://cloud.189.cn/t/qiI7FfEreQFz',
+          ty: 'https://cloud.189.cn/t/juyaEfQbiyAn',
         },
         {
           title: '全家桶',

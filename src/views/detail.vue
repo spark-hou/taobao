@@ -906,13 +906,13 @@ export default {
           title: 'Bridge(BR)',
           val: `链接：https://pan.baidu.com/s/1If4BBNygNjo_DHvcKVqxgA
 提取码：gk2e`,
-          ty: 'https://cloud.189.cn/t/B7N7venmMFVj',
+          ty: 'https://cloud.189.cn/t/vUZNvuQJJBJj',
         },
         {
           title: 'Character(CH)',
           val: `链接：https://pan.baidu.com/s/1HH7-oKcTiskWC0vVrkvCyg
 提取码：k1ir`,
-          ty: 'https://cloud.189.cn/t/B7N7venmMFVj',
+          ty: 'https://cloud.189.cn/t/RJvUfu2IN3Qz',
         },
         {
           title: 'Dimension(DN)',

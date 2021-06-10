@@ -13,6 +13,7 @@
       <el-tab-pane label="1.windows平台安装" name="1"/>
       <el-tab-pane label="2.mac平台安装" name="2"/>
       <el-tab-pane label="3.windows平台安装失败？" name="3"/>
+      <el-tab-pane label="4.mac平台提示错误" name="4"/>
     </el-tabs>
     <div class="g-infoBox">
       <div v-if="activeName==='1'">
@@ -35,6 +36,28 @@
             点击下载--adobe清理工具
           </a>
         </div>
+      </div>
+      <div v-if="activeName==='4'">
+        <a style="color: red;display: block" href="https://www.bilibili.com/video/BV1vz4y1r7ed?from=search&seid=9704467516598308752" target="_blank">
+          Big Sur 系统「您没有权限来打开应用程序 XXX」问题解决</a>
+        <div class="block">
+          <a :href="`${$path}/file/无权限修复.pkg.zip`"
+             download="无权限修复.pkg.zip" class="download">
+            点击下载--无权限修复.pkg.zip
+          </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a style="color: red;display: block" href="https://www.bilibili.com/video/BV17t411p7g1?from=search&seid=4840697584900466478" target="_blank">
+          xxx已损坏，无法打开，你应该将它移到废纸篓解决办法
+          <br>
+          打不开 xxx，因为它来自身份不明的开发者
+          <br>
+          打不开xxxx，因为 Apple 无法检查其是否包含恶意软件
+        </a>
+
       </div>
     </div>
   </div>

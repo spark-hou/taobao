@@ -281,10 +281,10 @@
             解压密码：@vposy
           </div>
           <div>
-            PS软件PR安装AE包AI全家桶MAC/WIN/M1/2021/20/19/18cc安装指导
+            PS软件PR安装包AE/AI/BR全家桶MAC/WIN/M1/21/20/19/18cc安装指导
           </div>
           <div>
-            软件MAC/WIN/M1/2021/20/19/18cc安装包技术指导
+            PS软件PR安装包 photosh/premie全家桶M1/MAC/WIN/2021cc安装包技术指导
           </div>
           <div>
             全家桶16种应用

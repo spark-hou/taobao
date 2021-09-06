@@ -12,7 +12,8 @@
       <div class="listItem" v-for="(item,index) in dataList" :key="index">
         <div class="bigBox">
           <div class="picContent" :id="('mmPic'+index)">
-            <img :src="item.url" alt="">
+            <img :src="item.url" alt="" class="mainImg">
+            <img :src="logo" alt="" class="imgLogo">
           </div>
         </div>
         <br>
@@ -29,16 +30,23 @@
 <script>
 import domtoimage from 'dom-to-image';
 
-const ADOBEAE = require('../assets/img/detail/ADOBEAE.svg');
+const logo = require('../assets/img/mm/logo.png');
+const dhsOne = require('../assets/img/mm/dhs/dhs-1.jpg');
+const dhsTwo = require('../assets/img/mm/dhs/dhs-2.jpg');
 
 export default {
   name: 'MemberMark',
   data() {
     return {
       title: '商品详情列表',
+      logo,
       dataList: [
         {
-          url: ADOBEAE,
+          url: dhsOne,
+          title: 'aaa',
+        },
+        {
+          url: dhsTwo,
           title: 'aaa',
         },
       ],
@@ -83,6 +91,15 @@ export default {
           margin 0 auto
         }
 
+        .imgLogo {
+          height 40px;
+          position: absolute;
+          top: 0;
+          left 0;
+          background black;
+          padding 5px;
+        }
+
         .picContent {
           background-color #2aabd2
           box-sizing border-box
@@ -92,7 +109,7 @@ export default {
           position relative
           display flex
 
-          img {
+          .mainImg {
             width 100%
             height 100%
           }

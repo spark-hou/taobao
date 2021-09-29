@@ -9,6 +9,15 @@
       {{title}}
     </div>
     <div class="dataList">
+      <div class="listItem">
+        <div class="bigBox">
+          <div class="picContent" id="aa">
+            <img :src="mmlogo" alt="" class="mainImg">
+            <img :src="logo" alt="" class="imgLogo">
+          </div>
+        </div>
+        <el-button @click="getPicById('aa')">下载图片</el-button>
+      </div>
       <div class="listItem" v-for="(item,index) in dataList" :key="index">
         <div class="bigBox">
           <div class="picContent" :id="('mmPic'+index)">
@@ -31,6 +40,7 @@
 import domtoimage from 'dom-to-image';
 
 const logo = require('../assets/img/mm/logo.png');
+const mmlogo = require('../assets/img/mm/mmlogo.png');
 const dhsOne = require('../assets/img/mm/dhs/dhs-1.jpg');
 const dhsTwo = require('../assets/img/mm/dhs/dhs-2.jpg');
 
@@ -40,6 +50,7 @@ export default {
     return {
       title: '商品详情列表',
       logo,
+      mmlogo,
       dataList: [
         {
           url: dhsOne,
